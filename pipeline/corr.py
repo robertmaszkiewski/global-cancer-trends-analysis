@@ -3,7 +3,10 @@ n=9. To wciaz malo — ale 9 punktow to nie 4."""
 import json
 from pathlib import Path
 
-WEB = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad/build/web")
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
+
 d = json.load(open(WEB / "cervix-wide.json"))
 
 # Ekspozycja: srednie pokrycie 2010-2015 — to sa roczniki, ktore do 2022 maja 20-34 lata.
@@ -28,7 +31,6 @@ print(f"  {'kraj':5} {'pokrycie 2010-15':>17} {'zmiana':>9}")
 for r in rows:
     print(f"  {r['iso']:5} {r['cov']:>16.1f}% {r['chg']:>8.0f}%")
 
-
 def spearman(xs, ys):
     def rank(v):
         s = sorted(range(len(v)), key=lambda i: v[i])
@@ -42,7 +44,6 @@ def spearman(xs, ys):
     num = sum((a - mx) * (b - my) for a, b in zip(rx, ry))
     den = (sum((a - mx) ** 2 for a in rx) * sum((b - my) ** 2 for b in ry)) ** .5
     return num / den if den else 0
-
 
 xs = [r["cov"] for r in rows]
 ys = [r["chg"] for r in rows]

@@ -6,16 +6,16 @@ from pathlib import Path
 
 import pandas as pd
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-OUT = SCR / "build" / "out"
-WEB = SCR / "build" / "web"
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
 
 CTRY = ["POL", "GBR", "ESP", "USA"]
 d = {}
 
 # --- 1. Pokrycie szczepieniami HPV (WHO GHO, dziewczeta 9-14) ---
 cov = collections.defaultdict(dict)
-for r in json.load(open(SCR / "hpv_cov.json"))["value"]:
+for r in json.load(open(RAW / "hpv_cov.json"))["value"]:
     if r.get("NumericValue") is not None and r["SpatialDim"] in CTRY:
         cov[r["SpatialDim"]][int(r["TimeDim"])] = round(float(r["NumericValue"]), 1)
 d["coverage"] = {c: {"years": sorted(v), "pct": [v[y] for y in sorted(v)]} for c, v in cov.items()}

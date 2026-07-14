@@ -17,9 +17,7 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent))
 from taxonomy import decode  # noqa: E402
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-RAW = SCR / "who-raw"
-WEB = SCR / "build" / "web"
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
 
 CTRY = {4230: "POL", 4308: "GBR", 4280: "ESP", 2450: "USA",
         4050: "DNK", 4290: "SWE", 4070: "FIN", 4220: "NOR",
@@ -29,7 +27,6 @@ WORLD_STD = {0: 8.86, 5: 8.69, 10: 8.60, 15: 8.47, 20: 8.22, 25: 7.93, 30: 7.61,
              35: 7.15, 40: 6.59, 45: 6.04, 50: 5.37, 55: 4.55, 60: 3.72, 65: 2.96,
              70: 2.21, 75: 1.52, 80: 0.91, 85: 0.63}
 DROPPED = {"unmapped": 0, "bad_frmat": 0, "no_pop": 0}
-
 
 def age_layout(frmat):
     f = str(frmat).zfill(2)
@@ -45,14 +42,12 @@ def age_layout(frmat):
     m["Deaths25"] = 85
     return m
 
-
 def read(n):
     with zipfile.ZipFile(RAW / n) as z:
         mem = [x for x in z.namelist() if not x.endswith("/")][0]
         with z.open(mem) as fh:
             return pd.read_csv(fh, dtype={"Admin1": str, "SubDiv": str, "List": str,
                                           "Cause": str, "Frmat": str}, low_memory=False)
-
 
 rows = []
 files = ["morticd08.zip", "morticd09.zip"] + [f"morticd10_part{i}.zip" for i in range(1, 7)]
@@ -86,7 +81,7 @@ d = d.groupby(["iso", "year", "age"], as_index=False).deaths.sum()
 
 # mianowniki: UN WPP (populacja kobiet)
 chunks = []
-for ch in pd.read_csv(gzip.open(SCR / "wpp2024.csv.gz", "rt"), chunksize=500_000, low_memory=False):
+for ch in pd.read_csv(gzip.open(RAW / "wpp2024.csv.gz", "rt"), chunksize=500_000, low_memory=False):
     ch = ch[ch["ISO3_code"].isin(set(CTRY.values()))]
     if len(ch):
         chunks.append(ch[["ISO3_code", "Time", "AgeGrpStart", "PopFemale"]])
@@ -129,7 +124,7 @@ for iso in CTRY.values():
 # pokrycie szczepieniami HPV (WHO GHO)
 cov = {}
 for f in ["hpv_cov.json", "hpv_cov2.json"]:
-    for r in json.load(open(SCR / f))["value"]:
+    for r in json.load(open(RAW / f))["value"]:
         if r.get("NumericValue") is not None:
             cov.setdefault(r["SpatialDim"], {})[int(r["TimeDim"])] = round(float(r["NumericValue"]), 1)
 for iso, v in cov.items():

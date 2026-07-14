@@ -19,9 +19,8 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent))
 from taxonomy import SEX_SPECIFIC, decode  # noqa: E402
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-RAW = SCR / "who-raw"
-OUT = SCR / "build" / "out"
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
+
 OUT.mkdir(parents=True, exist_ok=True)
 
 CTRY = {4230: "POL", 4308: "GBR", 4280: "ESP", 2450: "USA"}
@@ -34,7 +33,6 @@ WORLD_STD = {0: 8.86, 5: 8.69, 10: 8.60, 15: 8.47, 20: 8.22, 25: 7.93, 30: 7.61,
 BANDS = sorted(WORLD_STD)
 
 DROPPED = {"unmapped_cause": 0, "bad_frmat": 0, "no_population": 0}
-
 
 def age_layout(frmat):
     """Mapuje kolumny Deaths* na poczatek 5-letniej grupy. Gorny kosz zwijany do 85+."""
@@ -51,14 +49,12 @@ def age_layout(frmat):
     m["Deaths25"] = 85  # 95-99 tez do 85+
     return m
 
-
 def read_zip(name):
     with zipfile.ZipFile(RAW / name) as z:
         member = [m for m in z.namelist() if not m.endswith("/")][0]
         with z.open(member) as fh:
             return pd.read_csv(fh, dtype={"Admin1": str, "SubDiv": str, "List": str,
                                           "Cause": str, "Frmat": str}, low_memory=False)
-
 
 def parse_deaths():
     rows = []
@@ -91,7 +87,6 @@ def parse_deaths():
         print(f"  {fname}: laczna liczba wierszy roboczych = {len(rows):,}", flush=True)
     return pd.DataFrame(rows)
 
-
 def main():
     print("[1/6] parsuje WHO (ICD-8 + ICD-9 + ICD-10)...", flush=True)
     d = parse_deaths()
@@ -119,7 +114,7 @@ def main():
 
     print("[3/6] doklejam mianowniki z UN WPP 2024...", flush=True)
     chunks = []
-    for ch in pd.read_csv(gzip.open(SCR / "wpp2024.csv.gz", "rt"),
+    for ch in pd.read_csv(gzip.open(RAW / "wpp2024.csv.gz", "rt"),
                           chunksize=500_000, low_memory=False):
         ch = ch[ch["ISO3_code"].isin(set(CTRY.values()))]
         if len(ch):
@@ -225,7 +220,6 @@ def main():
               f"| lokalizacji: {s.site.nunique()}")
     print()
     print(f"wierszy (seria): {len(agg):,} | wierszy (wg wieku): {len(d):,}")
-
 
 if __name__ == "__main__":
     main()

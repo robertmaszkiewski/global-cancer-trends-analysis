@@ -5,9 +5,9 @@ from pathlib import Path
 
 import pandas as pd
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-WEB = SCR / "build" / "web"
-OUT = SCR / "build" / "out"
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
 
 wide = json.load(open(WEB / "cervix-wide.json"))
 oro = json.load(open(WEB / "orophar.json"))
@@ -41,7 +41,6 @@ print(f"  {'kraj':5} {'start':>6} {'lat':>4} {'pokrycie':>9} {'zmiana':>8}")
 for p in pts:
     print(f"  {p['iso']:5} {p['start']:>6} {p['years']:>4} {p['cov']:>8.0f}% {p['chg']:>7.0f}%")
 
-
 def spearman(xs, ys):
     def rk(v):
         s = sorted(range(len(v)), key=lambda i: v[i])
@@ -55,7 +54,6 @@ def spearman(xs, ys):
     num = sum((a - mx) * (b - my) for a, b in zip(rx, ry))
     den = (sum((a - mx) ** 2 for a in rx) * sum((b - my) ** 2 for b in ry)) ** .5
     return num / den if den else 0
-
 
 print()
 for label, key in [("lata programu", "years"), ("pokrycie", "cov")]:

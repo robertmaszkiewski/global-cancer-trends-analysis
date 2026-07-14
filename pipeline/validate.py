@@ -8,20 +8,17 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent))
 from taxonomy import decode  # noqa: E402
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-RAW = SCR / "who-raw"
-OUT = SCR / "build" / "out"
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
+
 CTRY = {4230: "POL", 4308: "GBR", 4280: "ESP", 2450: "USA"}
 
 issues = []
-
 
 def check(name, ok, detail=""):
     status = "OK  " if ok else "BLAD"
     print(f"  [{status}] {name}{(' — ' + detail) if detail else ''}")
     if not ok:
         issues.append(name)
-
 
 agg = pd.read_parquet(OUT / "mortality.parquet")
 byage = pd.read_parquet(OUT / "mortality_by_age.parquet")

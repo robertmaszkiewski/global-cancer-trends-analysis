@@ -8,11 +8,10 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).parent))
 from taxonomy import LABELS, SEX_SPECIFIC  # noqa: E402
 
-SCR = Path("/tmp/claude-1000/-home-ubuntu/dbf101f2-9ff3-4d77-abb0-3a89bc56df0b/scratchpad")
-OUT = SCR / "build" / "out"
-WEB = SCR / "build" / "web"
+from paths import RAW, OUT, WEB   # jedno miejsce na sciezki (patrz paths.py)
+
 WEB.mkdir(parents=True, exist_ok=True)
-IARC_PARQ = SCR / "cancer-review/data/processed/cancer_observations.parquet"
+IARC_PARQ = RAW / "cancer_observations.parquet"   # warstwa IARC (GLOBOCAN + prognozy)
 
 AGG = ["ALL", "ALL_EX_NMSC"]          # kody zbiorcze — NIGDY w rankingu
 RESIDUAL = ["OTHER", "UNSPECIFIED"]   # kosze resztkowe — NIGDY w rankingu

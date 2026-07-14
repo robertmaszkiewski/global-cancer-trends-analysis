@@ -194,6 +194,47 @@ def parse_who_frame(
     return result
 
 
+def parse_who_population(
+    frame: pd.DataFrame, country_lookup: dict[int, tuple[str, str]]
+) -> pd.DataFrame:
+    """Parse WHO population denominators using the mortality age layouts."""
+
+    source = _national_rows(frame)
+    source["Country"] = pd.to_numeric(source["Country"], errors="coerce").astype("Int64")
+    source = source[source["Country"].isin(country_lookup)].copy()
+    records: list[dict[str, object]] = []
+    for row in source.itertuples(index=False):
+        row_data = row._asdict()
+        layout = AGE_LAYOUTS.get(str(row_data["Frmat"]).zfill(2))
+        if not layout:
+            continue
+        geography_code, geography_name = country_lookup[int(row_data["Country"])]
+        for deaths_column, (age_start, age_end, age_label) in layout.items():
+            population_column = deaths_column.replace("Deaths", "Pop")
+            raw_value = row_data.get(population_column)
+            if pd.isna(raw_value):
+                continue
+            records.append(
+                {
+                    "geography_code": geography_code,
+                    "geography_name": geography_name,
+                    "year": int(row_data["Year"]),
+                    "sex": normalize_sex(str(row_data["Sex"])),
+                    "age_start": age_start,
+                    "age_end": age_end,
+                    "age_group_label": age_label,
+                    "population": float(raw_value),
+                    "source_total_population": float(row_data.get("Pop1") or 0),
+                }
+            )
+    result = pd.DataFrame.from_records(records)
+    if not result.empty and result.duplicated(
+        ["geography_code", "year", "sex", "age_start", "age_end"]
+    ).any():
+        raise ValueError("duplicate WHO population keys")
+    return result
+
+
 def _revision_for_list(list_code: str) -> str:
     list_code = list_code.upper()
     if list_code.startswith("07"):
@@ -260,6 +301,13 @@ def build_who_mortality(raw_dir: Path, output: Path, countries: set[str]) -> pd.
         )
         coverage.to_csv(output / "coverage.csv", index=False)
     return result
+
+
+def build_who_population(raw_dir: Path, countries: set[str]) -> pd.DataFrame:
+    lookup = _read_country_lookup(raw_dir, countries)
+    dtype = {"Admin1": str, "SubDiv": str, "Frmat": str}
+    frame = pd.read_csv(raw_dir / "mort_pop.zip", compression="zip", dtype=dtype, low_memory=False)
+    return parse_who_population(frame, lookup)
 
 
 def main() -> int:

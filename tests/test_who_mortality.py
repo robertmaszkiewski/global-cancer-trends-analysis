@@ -6,6 +6,7 @@ import pytest
 from cancer_explorer.adapters.who_mortality import (
     filter_complete_country_years,
     parse_who_frame,
+    parse_who_population,
 )
 
 
@@ -74,3 +75,28 @@ def test_duplicate_age_keys_are_rejected():
 
     with pytest.raises(ValueError, match="duplicate WHO mortality keys"):
         parse_who_frame(frame, {4270: ("POL", "Poland")})
+
+
+def test_population_denominators_follow_the_same_age_layouts():
+    frame = pd.DataFrame(
+        [
+            {
+                "Country": 4270,
+                "Admin1": None,
+                "SubDiv": None,
+                "Year": 2021,
+                "Sex": 1,
+                "Frmat": "02",
+                "Pop1": 1_000,
+                "Pop2": 10,
+                "Pop3": 40,
+                "Pop7": 100,
+            }
+        ]
+    )
+
+    parsed = parse_who_population(frame, {4270: ("POL", "Poland")})
+
+    assert parsed["source_total_population"].eq(1_000).all()
+    assert set(parsed["age_group_label"]) == {"0", "1-4", "5-9"}
+    assert parsed["population"].sum() == 150

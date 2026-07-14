@@ -1,0 +1,59 @@
+list_code,cause_code,cancer_code,scope_note
+101,1027,LIP_ORAL,ICD-10 Mortality Tabulation List 1
+101,1028,OESOPHAGUS,ICD-10 Mortality Tabulation List 1
+101,1029,STOMACH,ICD-10 Mortality Tabulation List 1
+101,1030,COLORECTUM,ICD-10 Mortality Tabulation List 1
+101,1031,LIVER,ICD-10 Mortality Tabulation List 1
+101,1032,PANCREAS,ICD-10 Mortality Tabulation List 1
+101,1033,LARYNX,ICD-10 Mortality Tabulation List 1
+101,1034,LUNG,ICD-10 Mortality Tabulation List 1
+101,1035,MELANOMA,ICD-10 Mortality Tabulation List 1
+101,1036,BREAST,ICD-10 Mortality Tabulation List 1
+101,1037,CERVIX,ICD-10 Mortality Tabulation List 1
+101,1038,CORPUS_UTERI,ICD-10 Mortality Tabulation List 1
+101,1039,OVARY,ICD-10 Mortality Tabulation List 1
+101,1040,PROSTATE,ICD-10 Mortality Tabulation List 1
+101,1041,BLADDER,ICD-10 Mortality Tabulation List 1
+101,1042,BRAIN_CNS,ICD-10 Mortality Tabulation List 1
+101,1043,NHL,ICD-10 Mortality Tabulation List 1
+101,1044,MYELOMA,ICD-10 Mortality Tabulation List 1
+101,1045,LEUKAEMIA,ICD-10 Mortality Tabulation List 1
+07B,B009,ALL,ICD-7 List B all malignant neoplasms
+08B,B009,ALL,ICD-8 List B all malignant neoplasms
+08A,A045,LIP_ORAL,ICD-8 List A
+08A,A046,OESOPHAGUS,ICD-8 List A
+08A,A047,STOMACH,ICD-8 List A
+08A,A048,COLORECTUM,ICD-8 List A intestine except rectum
+08A,A049,COLORECTUM,ICD-8 List A rectum
+08A,A050,LARYNX,ICD-8 List A
+08A,A051,LUNG,ICD-8 List A
+08A,A052,BONE,ICD-8 List A
+08A,A053,MELANOMA,ICD-8 List A skin includes non-melanoma
+08A,A054,BREAST,ICD-8 List A
+08A,A055,CERVIX,ICD-8 List A
+08A,A056,CORPUS_UTERI,ICD-8 List A
+08A,A057,PROSTATE,ICD-8 List A
+08A,A059,LEUKAEMIA,ICD-8 List A
+08A,A060,NHL,ICD-8 List A lymphatic and haematopoietic
+09A,B08,LIP_ORAL,ICD-9 Basic Tabulation List
+09A,B090,OESOPHAGUS,ICD-9 Basic Tabulation List
+09A,B091,STOMACH,ICD-9 Basic Tabulation List
+09A,B092,SMALL_INTESTINE,ICD-9 Basic Tabulation List
+09A,B093,COLORECTUM,ICD-9 Basic Tabulation List colon
+09A,B094,COLORECTUM,ICD-9 Basic Tabulation List rectum and anus
+09A,B095,LIVER,ICD-9 Basic Tabulation List
+09A,B096,PANCREAS,ICD-9 Basic Tabulation List
+09A,B100,LARYNX,ICD-9 Basic Tabulation List
+09A,B101,LUNG,ICD-9 Basic Tabulation List
+09A,B110,BONE,ICD-9 Basic Tabulation List
+09A,B111,MELANOMA,ICD-9 Basic Tabulation List
+09A,B112,NMSC,ICD-9 Basic Tabulation List
+09A,B113,BREAST,ICD-9 Basic Tabulation List female breast
+09A,B120,CERVIX,ICD-9 Basic Tabulation List
+09A,B122,CORPUS_UTERI,ICD-9 Basic Tabulation List
+09A,B123,OVARY,ICD-9 Basic Tabulation List
+09A,B124,PROSTATE,ICD-9 Basic Tabulation List
+09A,B125,TESTIS,ICD-9 Basic Tabulation List
+09A,B126,BLADDER,ICD-9 Basic Tabulation List
+09B,B009,ALL,ICD-9 List B all malignant neoplasms
+

@@ -1,0 +1,3 @@
+dataset_scope,geography_code,geography_name,year,sex,age_group,cancer,measure,metric,value,standard_population,coverage_percent
+registry,USA-SEER17,SEER 17 registries,2021,Female,50-54,Breast,Incidence,Rate,238.4,US 2000 standard population,26.5
+country,USA,United States,2021,Both sexes,All ages,Lung,Mortality,Number,134592,,100

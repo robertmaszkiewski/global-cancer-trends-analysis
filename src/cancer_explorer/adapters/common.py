@@ -25,7 +25,9 @@ def cancer_aliases() -> dict[str, str]:
         {
             "tracheal bronchus and lung cancer": "LUNG",
             "trachea bronchus lung cancers": "LUNG",
+            "lung": "LUNG",
             "lung cancer": "LUNG",
+            "breast": "BREAST",
             "breast cancer": "BREAST",
             "colon and rectum cancer": "COLORECTUM",
             "colon and rectal cancer": "COLORECTUM",

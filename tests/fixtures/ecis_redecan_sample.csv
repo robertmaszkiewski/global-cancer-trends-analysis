@@ -1,0 +1,4 @@
+source_id,geography_scope,geography_code,geography_name,year,sex,age_group,cancer,measure,metric,value,standard_population,evidence_type,coverage_percent
+ecis,registry,ESP-GIRONA,Girona Cancer Registry,2017,Both sexes,All ages,Colorectum,Incidence,Number,815,,observed,2.0
+ecis,country,POL,Poland,2024,Female,Age-standardized,Cervix uteri,Incidence,Rate,16.8,ESP2013,modelled,
+redecan,country,ESP,Spain,2025,Both sexes,All ages,All cancers excluding non-melanoma skin cancer,Incidence,Number,296103,,modelled,

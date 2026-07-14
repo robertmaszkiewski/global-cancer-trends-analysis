@@ -1,0 +1,3 @@
+year,sex,age_group,cancer_label_en,cancer_label_pl,icd10,measure,count,asw_rate
+2023,Male,65-69,"Trachea, bronchus and lung",Płuco,C33-C34,Incidence,1200,150.4
+2023,Female,50-54,Breast,Pierś,C50,Mortality,340,21.7

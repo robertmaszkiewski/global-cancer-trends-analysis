@@ -1,0 +1,3 @@
+geography_scope,geography_code,geography_name,year,sex,age_group,cancer,measure,metric,value,standard_population,evidence_type,coverage_percent
+country,GBR,United Kingdom,2022,Both sexes,All ages,Lung,Incidence,Number,50000,,observed,100
+nation,GBR-ENG,England,2022,Female,Age-standardized,Breast,Incidence,Rate,170.2,ESP2013,observed,100

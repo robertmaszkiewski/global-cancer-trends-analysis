@@ -9,7 +9,7 @@ przez co nie uruchamial sie u nikogo innego. Teraz:
 Uklad katalogow:
   data/raw/       pobrane pliki zrodlowe (morticd*.zip, mort_pop.zip, wpp2024.csv.gz, hpv_cov*.json)
   data/interim/   posrednie parquet (mortality.parquet, mortality_by_age.parquet, continuity.csv)
-  data/web/       gotowe JSON-y dla strony
+  data/site/      gotowe JSON-y dla strony (data/web nalezy do starego pipeline'u)
 """
 import os
 from pathlib import Path
@@ -19,7 +19,9 @@ DATA = Path(os.environ.get("CANCER_DATA", ROOT / "data"))
 
 RAW = DATA / "raw"        # dane zrodlowe (WHO, UN WPP, WHO GHO)
 OUT = DATA / "interim"    # wyniki posrednie
-WEB = DATA / "web"        # JSON-y serwowane przez strone
+WEB = DATA / "site"       # JSON-y serwowane przez strone
+                          # UWAGA: NIE data/web — tam mieszkaja partycje
+                          # oryginalnego pipeline'u i nie wolno ich nadpisac
 
 for _d in (RAW, OUT, WEB):
     _d.mkdir(parents=True, exist_ok=True)

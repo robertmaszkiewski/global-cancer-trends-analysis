@@ -10,3 +10,7 @@ data/raw/*
 !data/raw/.gitkeep
 data/staging/*
 !data/staging/.gitkeep
+
+# wyniki pipeline'u — generowane, nie trzymamy ich w repo
+data/interim/
+data/site/

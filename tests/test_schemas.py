@@ -25,6 +25,7 @@ def valid_record(**overrides):
         "age_group_label": "All ages",
         "measure": "incidence",
         "metric": "age_standardised_rate",
+        "risk_basis": None,
         "standard_population": "GBD world population standard",
         "value": 250.0,
         "lower_bound": 230.0,
@@ -62,6 +63,18 @@ def test_projected_record_requires_base_year():
         )
 
 
+def test_lifetime_risk_requires_an_outcome_basis():
+    with pytest.raises(ValidationError):
+        CancerRecord.model_validate(
+            valid_record(
+                measure="lifetime_risk",
+                metric="percent",
+                standard_population=None,
+                risk_basis=None,
+            )
+        )
+
+
 def test_observed_and_modelled_rows_have_different_series_keys():
     observed = valid_record(evidence_type="observed", lower_bound=None, upper_bound=None)
     modelled = valid_record()
@@ -79,4 +92,3 @@ def test_frame_rejects_duplicate_canonical_keys():
 
     with pytest.raises(ValueError, match="duplicate canonical keys"):
         validate_frame(frame)
-

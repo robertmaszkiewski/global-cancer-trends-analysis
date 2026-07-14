@@ -53,7 +53,7 @@ Use IARC CI5 Plus / Cancer Over Time for annual incidence in selected cancer reg
 
 ### Layer 4 — current global snapshot and projections
 
-Use IARC GLOBOCAN 2022 for incidence, mortality, and five-year prevalence across 185 countries or territories and up to 36 cancer types. Use Cancer Tomorrow for demographic projections through 2050.
+Use the newly released IARC GLOBOCAN 2024 snapshot for incidence and mortality across 186 countries or territories and 34 cancer types. Use Cancer Tomorrow projections from the 2024 baseline through 2050. Preserve five-year age groups, sex, cancer site, count, age-specific rate, crude rate, age-standardised rate, and cumulative risk wherever supplied.
 
 GLOBOCAN releases from different years must not be treated as a historical series because source coverage and estimation methods change between releases.
 

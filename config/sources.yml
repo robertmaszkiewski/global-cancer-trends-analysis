@@ -46,26 +46,26 @@ sources:
     geographies: [WORLD, POL, GBR, ESP, USA]
     notes: Preferred comparable incidence, mortality, prevalence, DALY, YLL and YLD panel for 1990-2023 with uncertainty intervals.
     manual: true
-  - id: iarc_globocan_2022
+  - id: iarc_globocan_2024
     publisher: International Agency for Research on Cancer
     title: Global Cancer Observatory — Cancer Today
     url: https://gco.iarc.who.int/today/
-    version: GLOBOCAN 2022 v1.1
+    version: GLOBOCAN 2024
     retrieved_at: 2026-07-14
     evidence_type: [modelled]
     licence: IARC Global Cancer Observatory terms of use
     geographies: [WORLD, POL, GBR, ESP, USA]
-    notes: 2022 incidence, mortality and five-year prevalence for 185 countries or territories and 36 cancer types.
+    notes: 2024 incidence and mortality estimates for 186 countries or territories and 34 cancer types; an independent snapshot, not a time-series continuation of GLOBOCAN 2022.
   - id: iarc_cancer_tomorrow
     publisher: International Agency for Research on Cancer
     title: Global Cancer Observatory — Cancer Tomorrow
     url: https://gco.iarc.who.int/tomorrow/
-    version: GLOBOCAN 2022 v1.1 projections
+    version: GLOBOCAN 2024 projections
     retrieved_at: 2026-07-14
     evidence_type: [projected]
     licence: IARC Global Cancer Observatory terms of use
     geographies: [WORLD, POL, GBR, ESP, USA]
-    notes: Demographic projections of cancer cases and deaths from the 2022 baseline through 2050.
+    notes: Demographic projections of cancer cases and deaths from the 2024 baseline through 2050.
   - id: iarc_ci5plus
     publisher: International Agency for Research on Cancer
     title: Cancer Incidence in Five Continents Plus

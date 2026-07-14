@@ -8,34 +8,38 @@ NASOPHARYNX,4,Nasopharynx,Część nosowa gardła,C11,false
 HYPOPHARYNX,5,Hypopharynx,Część krtaniowa gardła,C12-C13,false
 OESOPHAGUS,6,Oesophagus,Przełyk,C15,false
 STOMACH,7,Stomach,Żołądek,C16,false
-SMALL_INTESTINE,8,Small intestine,Jelito cienkie,C17,false
-COLORECTUM,9,Colorectum,Jelito grube i odbytnica,C18-C20,false
+SMALL_INTESTINE,,Small intestine,Jelito cienkie,C17,false
+COLON,8,Colon,Okrężnica,C18,false
+RECTUM,9,Rectum,Odbytnica,C19-C20,false
+COLORECTUM,41,Colorectum,Jelito grube i odbytnica,C18-C21,false
 ANUS,10,Anus,Kanał odbytu,C21,false
 LIVER,11,"Liver and intrahepatic bile ducts","Wątroba i wewnątrzwątrobowe drogi żółciowe",C22,false
 GALLBLADDER,12,Gallbladder,Pęcherzyk żółciowy,C23,false
 PANCREAS,13,Pancreas,Trzustka,C25,false
 LARYNX,14,Larynx,Krtań,C32,false
 LUNG,15,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",C33-C34,false
-BONE,16,Bone,Kości,C40-C41,false
-MELANOMA,17,Melanoma of skin,Czerniak skóry,C43,false
-NMSC,18,Non-melanoma skin cancer,Nieczerniakowy rak skóry,C44,true
-BREAST,19,Breast,Pierś,C50,false
-VULVA,20,Vulva,Srom,C51,false
-VAGINA,21,Vagina,Pochwa,C52,false
-CERVIX,22,Cervix uteri,Szyjka macicy,C53,false
-CORPUS_UTERI,23,Corpus uteri,Trzon macicy,C54,false
-OVARY,24,Ovary,Jajnik,C56,false
-PENIS,25,Penis,Prącie,C60,false
-PROSTATE,26,Prostate,Gruczoł krokowy,C61,false
-TESTIS,27,Testis,Jądro,C62,false
-KIDNEY,28,Kidney,Nerka,C64,false
-BLADDER,29,Bladder,Pęcherz moczowy,C67,false
-BRAIN_CNS,30,"Brain, central nervous system","Mózg i ośrodkowy układ nerwowy",C70-C72,false
-THYROID,31,Thyroid,Tarczyca,C73,false
-ADRENAL,32,Adrenal gland,Nadnercze,C74,false
+BONE,,Bone,Kości,C40-C41,false
+MELANOMA,16,Melanoma of skin,Czerniak skóry,C43,false
+NMSC,17,Non-melanoma skin cancer,Nieczerniakowy rak skóry,C44,true
+MESOTHELIOMA,18,Mesothelioma,Międzybłoniak,C45,false
+KAPOSI,19,Kaposi sarcoma,Mięsak Kaposiego,C46,false
+BREAST,20,Breast,Pierś,C50,false
+VULVA,21,Vulva,Srom,C51,false
+VAGINA,22,Vagina,Pochwa,C52,false
+CERVIX,23,Cervix uteri,Szyjka macicy,C53,false
+CORPUS_UTERI,24,Corpus uteri,Trzon macicy,C54,false
+OVARY,25,Ovary,Jajnik,C56,false
+PENIS,26,Penis,Prącie,C60,false
+PROSTATE,27,Prostate,Gruczoł krokowy,C61,false
+TESTIS,28,Testis,Jądro,C62,false
+KIDNEY,29,Kidney,Nerka,C64,false
+BLADDER,30,Bladder,Pęcherz moczowy,C67,false
+BRAIN_CNS,31,"Brain, central nervous system","Mózg i ośrodkowy układ nerwowy",C70-C72,false
+THYROID,32,Thyroid,Tarczyca,C73,false
+ADRENAL,,Adrenal gland,Nadnercze,C74,false
 HODGKIN,33,Hodgkin lymphoma,Chłoniak Hodgkina,C81,false
-NHL,34,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,C82-C86|C96,false
-MYELOMA,35,Multiple myeloma,Szpiczak mnogi,C88|C90,false
+NHL,34,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,C82-C86|C88,false
+MYELOMA,35,Multiple myeloma,Szpiczak mnogi,C90,false
 LEUKAEMIA,36,Leukaemia,Białaczka,C91-C95,false
-OTHER,99,Other specified cancers,Inne określone nowotwory,Source-defined,false
-
+OTHER,37,Other specified cancers,Inne określone nowotwory,Source-defined,false
+UNSPECIFIED,38,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,C76-C80|C96-C97,false

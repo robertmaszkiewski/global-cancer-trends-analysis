@@ -1,0 +1,4 @@
+record_kind,release_year,country_code,country_name,sex,type,cancer_code,cancer_label,age_index,total,total_pop,asr,crude_rate,cum_risk_74,year,cases_pred
+snapshot,2024,616,Poland,2,0,15,"Trachea, bronchus and lung",10,875,1520000,31.7,57.57,3.2,,
+snapshot,2024,616,Poland,1,1,27,Prostate,,5100,14800000,28.2,34.46,2.9,,
+projection,2024,900,World,0,0,39,All cancers,,,,,,,2050,34400000

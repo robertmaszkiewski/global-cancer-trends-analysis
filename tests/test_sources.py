@@ -17,7 +17,7 @@ def test_required_sources_are_registered(source_registry):
         "who_mortality",
         "who_ghe",
         "gbd_2023",
-        "iarc_globocan_2022",
+        "iarc_globocan_2024",
         "iarc_cancer_tomorrow",
         "iarc_ci5plus",
         "ecis",

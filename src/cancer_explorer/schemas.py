@@ -28,6 +28,7 @@ Metric = Literal[
     "percent",
     "probability",
 ]
+RiskBasis = Literal["incidence", "mortality"]
 
 
 class CancerRecord(BaseModel):
@@ -53,6 +54,7 @@ class CancerRecord(BaseModel):
     age_group_label: str
     measure: Measure
     metric: Metric
+    risk_basis: RiskBasis | None = None
     standard_population: str | None = None
     value: float = Field(ge=0)
     lower_bound: float | None = Field(default=None, ge=0)
@@ -75,6 +77,8 @@ class CancerRecord(BaseModel):
             raise ValueError("value must fall within uncertainty bounds")
         if self.metric == "age_standardised_rate" and not self.standard_population:
             raise ValueError("age-standardised rates require a standard population")
+        if self.measure == "lifetime_risk" and self.risk_basis is None:
+            raise ValueError("lifetime risk requires an incidence or mortality basis")
         if self.evidence_type == "projected" and self.projection_base_year is None:
             raise ValueError("projected records require projection_base_year")
         return self
@@ -96,6 +100,7 @@ def canonical_series_key() -> tuple[str, ...]:
         "age_end",
         "measure",
         "metric",
+        "risk_basis",
         "standard_population",
         "projection_base_year",
     )
@@ -104,7 +109,11 @@ def canonical_series_key() -> tuple[str, ...]:
 def validate_frame(frame: pd.DataFrame) -> pd.DataFrame:
     """Validate records and fail on mixed or duplicated analytical grain."""
 
-    validated = [CancerRecord.model_validate(row).model_dump() for row in frame.to_dict("records")]
+    # Pandas promotes optional numeric/string fields containing ``None`` to
+    # floating NaN. Convert missing values back to Python ``None`` before
+    # passing records across the strict Pydantic boundary.
+    records = frame.astype(object).where(pd.notna(frame), None).to_dict("records")
+    validated = [CancerRecord.model_validate(row).model_dump() for row in records]
     result = pd.DataFrame(validated)
     duplicates = result.duplicated(subset=list(canonical_series_key()), keep=False)
     if duplicates.any():

@@ -1,0 +1,4 @@
+location_name,location_code,year,sex_name,age_name,cause_name,measure_name,metric_name,val,lower,upper
+Poland,POL,2021,Female,50-54,Tracheal bronchus and lung cancer,Deaths,Number,3200,3000,3400
+World,WORLD,2021,Both,Age-standardized,Breast cancer,Incidence,Rate,50.1,45.0,55.2
+Spain,ESP,2021,Male,All Ages,Colon and rectum cancer,DALYs,Number,125000,118000,132000

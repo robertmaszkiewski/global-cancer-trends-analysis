@@ -1,0 +1,3 @@
+location_name,location_code,year,sex,age_group,cause,measure,metric,value
+United Kingdom,GBR,2021,Both sexes,All ages,Trachea bronchus lung cancers,Mortality,Number,35000
+United States,USA,2021,Female,Age-standardized,Breast cancer,Mortality,Rate,12.5

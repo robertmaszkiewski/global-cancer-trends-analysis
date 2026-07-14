@@ -263,7 +263,7 @@ git commit -m "feat: parse WHO cancer mortality history"
 
 **Step 1: Write failing adapter tests**
 
-Test GBD uncertainty bounds, WHO GHE fallback, IARC age/sex/type parsing, 2022 snapshot labels, 2050 projection base years, and the prohibition on combining separate GLOBOCAN releases as a trend.
+Test GBD uncertainty bounds, WHO GHE fallback, IARC age/sex/type parsing, 2024 snapshot labels, 2050 projection base years, and the prohibition on combining separate GLOBOCAN releases as a trend.
 
 **Step 2: Verify failure**
 
@@ -276,7 +276,7 @@ Prefer a reproducible GBD 2023 export. If unavailable, ingest WHO GHE for compar
 
 **Step 4: Acquire and transform available global sources**
 
-Run: `python scripts/download_sources.py --source who_ghe --source iarc_globocan_2022 --source iarc_cancer_tomorrow --source iarc_ci5plus --source gbd_2023`  
+Run: `python scripts/download_sources.py --source who_ghe --source iarc_globocan_2024 --source iarc_cancer_tomorrow --source iarc_ci5plus --source gbd_2023`
 Run: `python -m cancer_explorer.adapters.iarc --output data/staging/iarc`  
 Run: `python -m cancer_explorer.adapters.gbd --output data/staging/gbd`  
 Expected: source-specific staging tables or a documented GBD access blocker with WHO GHE fallback.

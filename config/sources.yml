@@ -1,0 +1,111 @@
+sources:
+  - id: who_mortality
+    publisher: World Health Organization
+    title: WHO Mortality Database
+    url: https://www.who.int/data/data-collection-tools/who-mortality-database
+    version: "2026-02-23"
+    retrieved_at: 2026-07-14
+    evidence_type: [observed]
+    licence: WHO data terms and conditions
+    geographies: [POL, GBR, ESP, USA]
+    notes: Country-reported cause-of-death microdata from 1950 onward; completeness and ICD revision vary.
+  - id: who_ghe
+    publisher: World Health Organization
+    title: Global Health Estimates
+    url: https://www.who.int/data/global-health-estimates
+    version: latest available 2026-07-14
+    retrieved_at: 2026-07-14
+    evidence_type: [modelled]
+    licence: WHO data terms and conditions
+    geographies: [WORLD, POL, GBR, ESP, USA]
+    notes: Comparable burden and mortality series used as a documented fallback when detailed GBD export is unavailable.
+  - id: gbd_2023
+    publisher: Institute for Health Metrics and Evaluation
+    title: Global Burden of Disease Study 2023 Results
+    url: https://vizhub.healthdata.org/gbd-results/
+    version: GBD 2023
+    retrieved_at: 2026-07-14
+    evidence_type: [modelled, projected]
+    licence: IHME free-of-charge non-commercial user agreement
+    geographies: [WORLD, POL, GBR, ESP, USA]
+    notes: Preferred comparable incidence, mortality, prevalence, DALY, YLL and YLD panel for 1990-2023 with uncertainty intervals.
+  - id: iarc_globocan_2022
+    publisher: International Agency for Research on Cancer
+    title: Global Cancer Observatory — Cancer Today
+    url: https://gco.iarc.who.int/today/
+    version: GLOBOCAN 2022 v1.1
+    retrieved_at: 2026-07-14
+    evidence_type: [modelled]
+    licence: IARC Global Cancer Observatory terms of use
+    geographies: [WORLD, POL, GBR, ESP, USA]
+    notes: 2022 incidence, mortality and five-year prevalence for 185 countries or territories and 36 cancer types.
+  - id: iarc_cancer_tomorrow
+    publisher: International Agency for Research on Cancer
+    title: Global Cancer Observatory — Cancer Tomorrow
+    url: https://gco.iarc.who.int/tomorrow/
+    version: GLOBOCAN 2022 v1.1 projections
+    retrieved_at: 2026-07-14
+    evidence_type: [projected]
+    licence: IARC Global Cancer Observatory terms of use
+    geographies: [WORLD, POL, GBR, ESP, USA]
+    notes: Demographic projections of cancer cases and deaths from the 2022 baseline through 2050.
+  - id: iarc_ci5plus
+    publisher: International Agency for Research on Cancer
+    title: Cancer Incidence in Five Continents Plus
+    url: https://ci5.iarc.who.int/ci5plus/
+    version: October 2023
+    retrieved_at: 2026-07-14
+    evidence_type: [observed]
+    licence: IARC CI5 terms of use
+    geographies: [POL, GBR, ESP, USA]
+    notes: Annual incidence for selected registries and populations, with data up to 2017 and source-specific coverage.
+  - id: ecis
+    publisher: European Commission Joint Research Centre
+    title: European Cancer Information System
+    url: https://ecis.jrc.ec.europa.eu/data-explorer
+    version: 2024 estimates and historical data, updated 2026-04-29
+    retrieved_at: 2026-07-14
+    evidence_type: [observed, modelled, projected]
+    licence: European Commission reuse notice
+    geographies: [POL, GBR, ESP]
+    notes: European registry history, current estimates, survival, prevalence and projections with registry coverage metadata.
+  - id: krn
+    publisher: Polish National Cancer Registry
+    title: Malignant neoplasms in Poland
+    url: https://onkologia.org.pl/pl/epidemiologia/nowotwory-zlosliwe-w-polsce
+    version: 2023 report published 2026
+    retrieved_at: 2026-07-14
+    evidence_type: [observed]
+    licence: Source publication terms; attribution required
+    geographies: [POL]
+    notes: National incidence and mortality by cancer, age and sex, with long-run summary tables from 1965.
+  - id: uk_cancer
+    publisher: UK cancer registries, ONS and Cancer Research UK
+    title: UK cancer incidence, mortality and survival statistics
+    url: https://www.cancerresearchuk.org/health-professional/cancer-statistics
+    version: latest releases through incidence 2022 and mortality 2024
+    retrieved_at: 2026-07-14
+    evidence_type: [observed, projected]
+    licence: Open Government Licence where supplied; CRUK reuse terms otherwise
+    geographies: [GBR]
+    notes: UK and nation-level incidence, mortality, stage and survival; scope and period vary by measure.
+  - id: redecan
+    publisher: Spanish Network of Cancer Registries
+    title: Cancer estimates in Spain
+    url: https://redecan.org/en/publications
+    version: 2025 estimates
+    retrieved_at: 2026-07-14
+    evidence_type: [observed, modelled]
+    licence: REDECAN publication terms; attribution required
+    geographies: [ESP]
+    notes: National incidence estimates and contributing population-based cancer registry evidence.
+  - id: seer
+    publisher: US National Cancer Institute
+    title: SEER Cancer Statistics
+    url: https://seer.cancer.gov/statistics/
+    version: 1975-2023 incidence release
+    retrieved_at: 2026-07-14
+    evidence_type: [observed, modelled]
+    licence: US Government public data with SEER citation requirements
+    geographies: [USA]
+    notes: Incidence, mortality, survival, stage, prevalence and lifetime risk; incidence registries cover a subset of the US population.

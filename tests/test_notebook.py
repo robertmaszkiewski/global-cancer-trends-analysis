@@ -46,6 +46,19 @@ def test_notebook_has_been_executed_without_cell_errors():
     )
 
 
+def test_notebook_execution_artifact_is_deterministic():
+    notebook = load_notebook()
+    code_cells = [cell for cell in notebook.cells if cell.cell_type == "code"]
+
+    assert all("execution" not in cell.metadata for cell in code_cells)
+    assert not any(
+        "AppData\\Local\\Temp\\ipykernel_" in "".join(output.get("text", []))
+        for cell in code_cells
+        for output in cell.get("outputs", [])
+        if output.output_type == "stream"
+    )
+
+
 def test_notebook_exports_documentation_figures():
     figures = ROOT / "reports" / "figures"
     required = [

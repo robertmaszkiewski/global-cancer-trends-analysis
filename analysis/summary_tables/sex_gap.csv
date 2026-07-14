@@ -1,0 +1,260 @@
+geography_code,geography_name,cancer_code,cancer_label_en,cancer_label_pl,measure,year,standard_population,female,male,male_minus_female,male_female_ratio,source_id,source_version
+ESP,Spain,BLADDER,Bladder,Pęcherz moczowy,incidence,2024,World standard population,5.91,31.81,25.9,5.382402707275803,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,BLADDER,Bladder,Pęcherz moczowy,mortality,2024,World standard population,1.01,6.45,5.44,6.3861386138613865,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,2024,World standard population,4.73,5.8,1.0699999999999994,1.2262156448202959,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,2024,World standard population,2.83,4.23,1.4000000000000004,1.4946996466431097,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,2024,World standard population,25.0,41.97,16.97,1.6787999999999998,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,2024,World standard population,7.5,13.55,6.050000000000001,1.8066666666666669,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,2024,World standard population,0.64,0.42,-0.22000000000000003,0.65625,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,2024,World standard population,0.28,0.25,-0.030000000000000027,0.8928571428571428,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,2024,World standard population,2.41,2.58,0.16999999999999993,1.070539419087137,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,2024,World standard population,0.17,0.24,0.06999999999999998,1.4117647058823528,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,2024,World standard population,0.17,1.41,1.24,8.294117647058822,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,2024,World standard population,0.06,0.54,0.48000000000000004,9.000000000000002,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,2024,World standard population,0.08,0.57,0.48999999999999994,7.124999999999999,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,2024,World standard population,0.01,0.05,0.04,5.0,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,KIDNEY,Kidney,Nerka,incidence,2024,World standard population,4.4,11.35,6.949999999999999,2.579545454545454,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,KIDNEY,Kidney,Nerka,mortality,2024,World standard population,1.1,3.2,2.1,2.909090909090909,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LARYNX,Larynx,Krtań,incidence,2024,World standard population,0.64,5.54,4.9,8.65625,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LARYNX,Larynx,Krtań,mortality,2024,World standard population,0.2,2.01,1.8099999999999998,10.049999999999999,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LEUKAEMIA,Leukaemia,Białaczka,incidence,2024,World standard population,5.15,7.38,2.2299999999999995,1.433009708737864,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LEUKAEMIA,Leukaemia,Białaczka,mortality,2024,World standard population,2.03,3.14,1.1100000000000003,1.5467980295566504,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,2024,World standard population,2.47,5.51,3.0399999999999996,2.2307692307692304,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,2024,World standard population,0.59,1.43,0.84,2.4237288135593222,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,2024,World standard population,2.33,9.66,7.33,4.145922746781116,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,2024,World standard population,2.02,7.31,5.289999999999999,3.6188118811881185,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,2024,World standard population,15.04,36.11,21.07,2.40093085106383,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,2024,World standard population,9.98,28.06,18.08,2.8116232464929856,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,2024,World standard population,6.82,7.06,0.23999999999999932,1.035190615835777,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,2024,World standard population,0.69,1.09,0.40000000000000013,1.5797101449275364,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,2024,World standard population,0.21,0.6,0.39,2.857142857142857,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,2024,World standard population,0.17,0.54,0.37,3.176470588235294,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,2024,World standard population,2.11,2.7,0.5900000000000003,1.2796208530805688,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,2024,World standard population,0.93,1.4,0.46999999999999986,1.5053763440860213,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,2024,World standard population,0.3,1.03,0.73,3.4333333333333336,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,2024,World standard population,0.08,0.37,0.29,4.625,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,2024,World standard population,7.62,10.91,3.29,1.431758530183727,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,2024,World standard population,1.54,2.76,1.2199999999999998,1.7922077922077921,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OESOPHAGUS,Oesophagus,Przełyk,incidence,2024,World standard population,0.59,3.67,3.08,6.220338983050848,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OESOPHAGUS,Oesophagus,Przełyk,mortality,2024,World standard population,0.48,3.04,2.56,6.333333333333334,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,2024,World standard population,0.6,2.03,1.4299999999999997,3.3833333333333333,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,2024,World standard population,0.19,0.93,0.74,4.894736842105264,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OTHER,Other specified cancers,Inne określone nowotwory,incidence,2024,World standard population,11.52,16.18,4.66,1.4045138888888888,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,OTHER,Other specified cancers,Inne określone nowotwory,mortality,2024,World standard population,2.6,4.14,1.5399999999999996,1.5923076923076922,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,PANCREAS,Pancreas,Trzustka,incidence,2024,World standard population,5.9,8.29,2.389999999999999,1.4050847457627116,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,PANCREAS,Pancreas,Trzustka,mortality,2024,World standard population,5.06,7.39,2.33,1.4604743083003953,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,SALIVARY,Salivary glands,Ślinianki,incidence,2024,World standard population,0.55,0.69,0.1399999999999999,1.2545454545454544,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,SALIVARY,Salivary glands,Ślinianki,mortality,2024,World standard population,0.09,0.22,0.13,2.4444444444444446,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,STOMACH,Stomach,Żołądek,incidence,2024,World standard population,4.14,7.87,3.7300000000000004,1.9009661835748795,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,STOMACH,Stomach,Żołądek,mortality,2024,World standard population,2.37,5.17,2.8,2.181434599156118,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,THYROID,Thyroid,Tarczyca,incidence,2024,World standard population,10.65,3.27,-7.380000000000001,0.30704225352112674,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,THYROID,Thyroid,Tarczyca,mortality,2024,World standard population,0.25,0.26,0.010000000000000009,1.04,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,2024,World standard population,3.48,4.44,0.9600000000000004,1.2758620689655173,iarc_globocan_2024,GLOBOCAN 2024
+ESP,Spain,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,2024,World standard population,2.55,4.41,1.8600000000000003,1.7294117647058824,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,BLADDER,Bladder,Pęcherz moczowy,incidence,2024,World standard population,3.64,11.13,7.49,3.057692307692308,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,BLADDER,Bladder,Pęcherz moczowy,mortality,2024,World standard population,1.6,3.91,2.31,2.44375,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,2024,World standard population,4.58,6.56,1.9799999999999995,1.4323144104803491,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,2024,World standard population,2.81,4.54,1.73,1.6156583629893237,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,2024,World standard population,27.9,33.85,5.950000000000003,1.21326164874552,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,2024,World standard population,9.35,13.54,4.1899999999999995,1.4481283422459892,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,2024,World standard population,1.17,0.41,-0.76,0.3504273504273504,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,2024,World standard population,0.51,0.25,-0.26,0.49019607843137253,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,2024,World standard population,2.45,3.17,0.7199999999999998,1.2938775510204081,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,2024,World standard population,0.13,0.25,0.12,1.923076923076923,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,2024,World standard population,0.26,1.08,0.8200000000000001,4.153846153846154,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,2024,World standard population,0.13,0.45,0.32,3.4615384615384617,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,2024,World standard population,0.05,0.32,0.27,6.3999999999999995,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,KIDNEY,Kidney,Nerka,incidence,2024,World standard population,7.09,16.33,9.239999999999998,2.3032440056417487,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,KIDNEY,Kidney,Nerka,mortality,2024,World standard population,1.68,3.61,1.93,2.1488095238095237,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LARYNX,Larynx,Krtań,incidence,2024,World standard population,0.7,3.2,2.5,4.571428571428572,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LARYNX,Larynx,Krtań,mortality,2024,World standard population,0.2,0.9,0.7,4.5,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LEUKAEMIA,Leukaemia,Białaczka,incidence,2024,World standard population,6.4,9.7,3.299999999999999,1.5156249999999998,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LEUKAEMIA,Leukaemia,Białaczka,mortality,2024,World standard population,2.1,3.54,1.44,1.6857142857142857,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,2024,World standard population,2.99,6.18,3.1899999999999995,2.0668896321070234,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,2024,World standard population,0.64,1.57,0.93,2.453125,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,2024,World standard population,3.4,6.24,2.8400000000000003,1.835294117647059,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,2024,World standard population,2.61,5.22,2.61,2.0,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,2024,World standard population,28.57,35.27,6.700000000000003,1.2345117255862794,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,2024,World standard population,17.32,22.57,5.25,1.3031177829099307,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,2024,World standard population,16.4,16.55,0.15000000000000213,1.0091463414634148,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,2024,World standard population,1.16,1.84,0.6800000000000002,1.5862068965517244,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,2024,World standard population,0.5,2.02,1.52,4.04,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,2024,World standard population,0.39,2.04,1.65,5.230769230769231,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,2024,World standard population,3.16,5.0,1.8399999999999999,1.5822784810126582,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,2024,World standard population,1.26,2.07,0.8099999999999998,1.6428571428571428,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,2024,World standard population,0.17,0.38,0.21,2.235294117647059,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,2024,World standard population,0.09,0.19,0.1,2.111111111111111,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,2024,World standard population,9.51,14.96,5.450000000000001,1.5730809674027342,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,2024,World standard population,2.06,3.29,1.23,1.5970873786407767,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OESOPHAGUS,Oesophagus,Przełyk,incidence,2024,World standard population,2.79,9.14,6.3500000000000005,3.2759856630824373,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OESOPHAGUS,Oesophagus,Przełyk,mortality,2024,World standard population,2.47,7.66,5.1899999999999995,3.101214574898785,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,2024,World standard population,1.04,3.42,2.38,3.2884615384615383,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,2024,World standard population,0.32,1.22,0.8999999999999999,3.8125,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OTHER,Other specified cancers,Inne określone nowotwory,incidence,2024,World standard population,21.76,37.63,15.870000000000001,1.7293198529411764,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,OTHER,Other specified cancers,Inne określone nowotwory,mortality,2024,World standard population,2.92,3.9,0.98,1.3356164383561644,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,PANCREAS,Pancreas,Trzustka,incidence,2024,World standard population,6.02,7.68,1.6600000000000001,1.275747508305648,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,PANCREAS,Pancreas,Trzustka,mortality,2024,World standard population,5.26,6.64,1.38,1.2623574144486691,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,SALIVARY,Salivary glands,Ślinianki,incidence,2024,World standard population,0.54,0.63,0.08999999999999997,1.1666666666666665,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,SALIVARY,Salivary glands,Ślinianki,mortality,2024,World standard population,0.09,0.25,0.16,2.7777777777777777,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,STOMACH,Stomach,Żołądek,incidence,2024,World standard population,2.62,5.1,2.4799999999999995,1.946564885496183,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,STOMACH,Stomach,Żołądek,mortality,2024,World standard population,1.57,3.25,1.68,2.0700636942675157,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,THYROID,Thyroid,Tarczyca,incidence,2024,World standard population,8.81,3.09,-5.720000000000001,0.35073779795686716,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,THYROID,Thyroid,Tarczyca,mortality,2024,World standard population,0.24,0.21,-0.03,0.875,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,2024,World standard population,2.7,3.94,1.2399999999999998,1.459259259259259,iarc_globocan_2024,GLOBOCAN 2024
+GBR,United Kingdom,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,2024,World standard population,5.21,5.84,0.6299999999999999,1.1209213051823417,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,BLADDER,Bladder,Pęcherz moczowy,incidence,2024,World standard population,5.15,19.93,14.78,3.869902912621359,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,BLADDER,Bladder,Pęcherz moczowy,mortality,2024,World standard population,1.68,8.28,6.6,4.928571428571428,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,2024,World standard population,5.28,6.9,1.62,1.3068181818181819,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,2024,World standard population,3.92,5.79,1.87,1.4770408163265307,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,2024,World standard population,22.4,38.85,16.450000000000003,1.7343750000000002,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,2024,World standard population,10.39,20.86,10.469999999999999,2.0076997112608277,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,2024,World standard population,1.4,0.79,-0.6099999999999999,0.5642857142857144,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,2024,World standard population,1.01,0.54,-0.47,0.5346534653465347,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,2024,World standard population,1.79,2.36,0.5699999999999998,1.318435754189944,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,2024,World standard population,0.16,0.38,0.22,2.375,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,2024,World standard population,0.3,2.19,1.89,7.3,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,2024,World standard population,0.16,1.29,1.1300000000000001,8.0625,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,2024,World standard population,0.01,0.12,0.11,12.0,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,2024,World standard population,0.02,0.06,0.039999999999999994,3.0,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,KIDNEY,Kidney,Nerka,incidence,2024,World standard population,5.31,9.85,4.54,1.8549905838041432,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,KIDNEY,Kidney,Nerka,mortality,2024,World standard population,1.8,4.29,2.49,2.3833333333333333,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LARYNX,Larynx,Krtań,incidence,2024,World standard population,0.96,7.1,6.14,7.395833333333333,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LARYNX,Larynx,Krtań,mortality,2024,World standard population,0.48,3.9,3.42,8.125,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LEUKAEMIA,Leukaemia,Białaczka,incidence,2024,World standard population,5.51,9.29,3.7799999999999994,1.6860254083484572,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LEUKAEMIA,Leukaemia,Białaczka,mortality,2024,World standard population,2.56,4.51,1.9499999999999997,1.7617187499999998,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,2024,World standard population,2.02,6.13,4.109999999999999,3.0346534653465347,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,2024,World standard population,1.01,3.88,2.87,3.8415841584158414,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,2024,World standard population,2.12,4.16,2.04,1.9622641509433962,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,2024,World standard population,1.75,4.0,2.25,2.2857142857142856,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,2024,World standard population,24.14,52.52,28.380000000000003,2.175642087821044,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,2024,World standard population,18.62,42.81,24.19,2.299140708915145,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,2024,World standard population,4.25,4.87,0.6200000000000001,1.1458823529411766,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,2024,World standard population,1.31,2.33,1.02,1.7786259541984732,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,2024,World standard population,0.31,0.77,0.46,2.4838709677419355,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,2024,World standard population,0.25,0.6,0.35,2.4,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,2024,World standard population,2.52,3.05,0.5299999999999998,1.2103174603174602,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,2024,World standard population,1.38,1.9,0.52,1.3768115942028987,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,2024,World standard population,0.16,0.53,0.37,3.3125,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,2024,World standard population,0.1,0.33,0.23,3.3,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,2024,World standard population,4.61,7.24,2.63,1.5704989154013014,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,2024,World standard population,1.58,2.89,1.31,1.8291139240506329,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OESOPHAGUS,Oesophagus,Przełyk,incidence,2024,World standard population,0.85,4.6,3.7499999999999996,5.411764705882352,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OESOPHAGUS,Oesophagus,Przełyk,mortality,2024,World standard population,0.8,4.17,3.37,5.2124999999999995,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,2024,World standard population,0.91,3.13,2.2199999999999998,3.4395604395604393,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,2024,World standard population,0.41,2.14,1.7300000000000002,5.219512195121951,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OTHER,Other specified cancers,Inne określone nowotwory,incidence,2024,World standard population,11.35,17.77,6.42,1.5656387665198237,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,OTHER,Other specified cancers,Inne określone nowotwory,mortality,2024,World standard population,4.09,6.67,2.58,1.6308068459657703,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,PANCREAS,Pancreas,Trzustka,incidence,2024,World standard population,5.76,8.12,2.3599999999999994,1.409722222222222,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,PANCREAS,Pancreas,Trzustka,mortality,2024,World standard population,5.11,7.74,2.63,1.5146771037181996,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,SALIVARY,Salivary glands,Ślinianki,incidence,2024,World standard population,0.71,0.9,0.19000000000000006,1.267605633802817,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,SALIVARY,Salivary glands,Ślinianki,mortality,2024,World standard population,0.18,0.46,0.28,2.555555555555556,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,STOMACH,Stomach,Żołądek,incidence,2024,World standard population,4.99,12.77,7.779999999999999,2.559118236472946,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,STOMACH,Stomach,Żołądek,mortality,2024,World standard population,3.53,9.14,5.610000000000001,2.5892351274787537,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,THYROID,Thyroid,Tarczyca,incidence,2024,World standard population,7.53,1.7,-5.83,0.22576361221779548,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,THYROID,Thyroid,Tarczyca,mortality,2024,World standard population,0.45,0.43,-0.020000000000000018,0.9555555555555555,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,2024,World standard population,2.85,4.94,2.0900000000000003,1.7333333333333334,iarc_globocan_2024,GLOBOCAN 2024
+POL,Poland,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,2024,World standard population,3.82,6.18,2.36,1.617801047120419,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,BLADDER,Bladder,Pęcherz moczowy,incidence,2024,World standard population,4.66,17.12,12.46,3.6738197424892705,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,BLADDER,Bladder,Pęcherz moczowy,mortality,2024,World standard population,0.95,3.0,2.05,3.1578947368421053,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,2024,World standard population,4.35,5.79,1.4400000000000004,1.331034482758621,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,2024,World standard population,2.52,3.58,1.06,1.4206349206349207,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,2024,World standard population,24.31,29.89,5.580000000000002,1.2295351707116413,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,2024,World standard population,6.48,9.0,2.5199999999999996,1.3888888888888888,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,2024,World standard population,0.81,0.45,-0.36000000000000004,0.5555555555555556,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,2024,World standard population,0.34,0.19,-0.15000000000000002,0.5588235294117647,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,2024,World standard population,2.02,2.37,0.3500000000000001,1.1732673267326732,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,2024,World standard population,0.1,0.2,0.1,2.0,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,2024,World standard population,0.15,0.62,0.47,4.133333333333334,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,2024,World standard population,0.04,0.16,0.12,4.0,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,2024,World standard population,0.03,0.41,0.38,13.666666666666666,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,2024,World standard population,0.01,0.03,0.019999999999999997,3.0,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,KIDNEY,Kidney,Nerka,incidence,2024,World standard population,8.54,16.25,7.710000000000001,1.902810304449649,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,KIDNEY,Kidney,Nerka,mortality,2024,World standard population,1.15,2.76,1.6099999999999999,2.4,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LARYNX,Larynx,Krtań,incidence,2024,World standard population,0.83,3.25,2.42,3.91566265060241,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LARYNX,Larynx,Krtań,mortality,2024,World standard population,0.22,0.96,0.74,4.363636363636363,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LEUKAEMIA,Leukaemia,Białaczka,incidence,2024,World standard population,8.69,12.71,4.020000000000001,1.4626006904487918,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LEUKAEMIA,Leukaemia,Białaczka,mortality,2024,World standard population,2.34,3.66,1.3200000000000003,1.5641025641025643,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,2024,World standard population,2.72,6.47,3.7499999999999996,2.378676470588235,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,2024,World standard population,0.43,0.99,0.56,2.302325581395349,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,2024,World standard population,3.51,8.32,4.8100000000000005,2.3703703703703707,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,2024,World standard population,2.67,5.61,2.9400000000000004,2.101123595505618,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,2024,World standard population,28.52,30.9,2.379999999999999,1.0834502103786816,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,2024,World standard population,14.23,17.81,3.5799999999999983,1.251581166549543,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,2024,World standard population,13.72,17.29,3.5699999999999985,1.260204081632653,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,2024,World standard population,0.8,1.49,0.69,1.8624999999999998,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,2024,World standard population,0.23,0.56,0.33000000000000007,2.4347826086956523,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,2024,World standard population,0.15,0.43,0.28,2.8666666666666667,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,2024,World standard population,3.75,5.32,1.5700000000000003,1.4186666666666667,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,2024,World standard population,1.14,1.91,0.77,1.6754385964912282,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,2024,World standard population,0.23,0.57,0.33999999999999997,2.478260869565217,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,2024,World standard population,0.08,0.2,0.12000000000000001,2.5,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,2024,World standard population,9.35,13.1,3.75,1.4010695187165776,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,2024,World standard population,1.81,3.05,1.2399999999999998,1.6850828729281766,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OESOPHAGUS,Oesophagus,Przełyk,incidence,2024,World standard population,1.21,5.15,3.9400000000000004,4.256198347107438,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OESOPHAGUS,Oesophagus,Przełyk,mortality,2024,World standard population,0.83,3.77,2.94,4.542168674698796,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,2024,World standard population,0.79,4.58,3.79,5.7974683544303796,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,2024,World standard population,0.23,0.99,0.76,4.304347826086956,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OTHER,Other specified cancers,Inne określone nowotwory,incidence,2024,World standard population,50.48,96.3,45.82,1.9076862123613312,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,OTHER,Other specified cancers,Inne określone nowotwory,mortality,2024,World standard population,2.74,3.78,1.0399999999999996,1.3795620437956202,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,PANCREAS,Pancreas,Trzustka,incidence,2024,World standard population,7.89,9.66,1.7700000000000005,1.2243346007604563,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,PANCREAS,Pancreas,Trzustka,mortality,2024,World standard population,5.7,7.49,1.79,1.3140350877192983,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,SALIVARY,Salivary glands,Ślinianki,incidence,2024,World standard population,0.74,0.97,0.22999999999999998,1.3108108108108107,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,SALIVARY,Salivary glands,Ślinianki,mortality,2024,World standard population,0.09,0.2,0.11000000000000001,2.2222222222222223,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,STOMACH,Stomach,Żołądek,incidence,2024,World standard population,3.14,5.05,1.9099999999999997,1.60828025477707,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,STOMACH,Stomach,Żołądek,mortality,2024,World standard population,1.2,1.92,0.72,1.6,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,THYROID,Thyroid,Tarczyca,incidence,2024,World standard population,16.11,5.43,-10.68,0.3370577281191806,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,THYROID,Thyroid,Tarczyca,mortality,2024,World standard population,0.28,0.29,0.009999999999999953,1.0357142857142856,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,2024,World standard population,3.59,4.71,1.12,1.3119777158774373,iarc_globocan_2024,GLOBOCAN 2024
+USA,United States,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,2024,World standard population,5.29,7.19,1.9000000000000004,1.3591682419659736,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,BLADDER,Bladder,Pęcherz moczowy,incidence,2024,World standard population,2.27,9.31,7.040000000000001,4.101321585903084,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,BLADDER,Bladder,Pęcherz moczowy,mortality,2024,World standard population,0.81,3.13,2.32,3.864197530864197,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,2024,World standard population,3.04,3.73,0.69,1.2269736842105263,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,2024,World standard population,2.11,2.93,0.8200000000000003,1.3886255924170618,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,2024,World standard population,15.28,22.36,7.08,1.4633507853403143,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,2024,World standard population,6.35,9.56,3.210000000000001,1.5055118110236223,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,2024,World standard population,1.41,0.87,-0.5399999999999999,0.6170212765957447,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,2024,World standard population,0.99,0.63,-0.36,0.6363636363636364,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,2024,World standard population,0.79,1.12,0.33000000000000007,1.4177215189873418,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,2024,World standard population,0.15,0.24,0.09,1.6,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,2024,World standard population,0.31,1.56,1.25,5.032258064516129,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,2024,World standard population,0.15,0.85,0.7,5.666666666666667,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,2024,World standard population,0.2,0.54,0.34,2.7,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,2024,World standard population,0.06,0.17,0.11000000000000001,2.8333333333333335,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,KIDNEY,Kidney,Nerka,incidence,2024,World standard population,2.94,5.82,2.8800000000000003,1.979591836734694,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,KIDNEY,Kidney,Nerka,mortality,2024,World standard population,0.81,1.83,1.02,2.259259259259259,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LARYNX,Larynx,Krtań,incidence,2024,World standard population,0.44,3.44,3.0,7.818181818181818,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LARYNX,Larynx,Krtań,mortality,2024,World standard population,0.2,1.69,1.49,8.45,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LEUKAEMIA,Leukaemia,Białaczka,incidence,2024,World standard population,4.31,6.06,1.75,1.406032482598608,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LEUKAEMIA,Leukaemia,Białaczka,mortality,2024,World standard population,2.38,3.41,1.0300000000000002,1.4327731092436975,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,2024,World standard population,2.42,6.67,4.25,2.7561983471074383,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,2024,World standard population,0.98,2.83,1.85,2.8877551020408165,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,2024,World standard population,4.34,11.84,7.5,2.728110599078341,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,2024,World standard population,3.74,10.07,6.33,2.692513368983957,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,2024,World standard population,17.14,31.83,14.689999999999998,1.8570595099183196,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,2024,World standard population,9.54,24.13,14.59,2.5293501048218032,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,2024,World standard population,2.86,3.51,0.6499999999999999,1.2272727272727273,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,2024,World standard population,0.39,0.64,0.25,1.641025641025641,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,2024,World standard population,0.13,0.35,0.21999999999999997,2.692307692307692,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,2024,World standard population,0.1,0.3,0.19999999999999998,2.9999999999999996,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,2024,World standard population,1.51,2.11,0.5999999999999999,1.3973509933774833,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,2024,World standard population,0.85,1.25,0.4,1.4705882352941178,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,2024,World standard population,0.71,1.82,1.11,2.563380281690141,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,2024,World standard population,0.32,0.94,0.6199999999999999,2.9374999999999996,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,2024,World standard population,4.45,6.5,2.05,1.4606741573033708,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,2024,World standard population,1.58,2.72,1.1400000000000001,1.7215189873417722,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OESOPHAGUS,Oesophagus,Przełyk,incidence,2024,World standard population,2.28,7.14,4.859999999999999,3.1315789473684212,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OESOPHAGUS,Oesophagus,Przełyk,mortality,2024,World standard population,1.99,6.32,4.33,3.1758793969849246,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,2024,World standard population,0.4,1.8,1.4,4.5,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,2024,World standard population,0.16,0.87,0.71,5.4375,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OTHER,Other specified cancers,Inne określone nowotwory,incidence,2024,World standard population,12.96,20.84,7.879999999999999,1.6080246913580245,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,OTHER,Other specified cancers,Inne określone nowotwory,mortality,2024,World standard population,3.24,4.97,1.7299999999999995,1.5339506172839505,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,PANCREAS,Pancreas,Trzustka,incidence,2024,World standard population,3.97,5.42,1.4499999999999997,1.3652392947103273,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,PANCREAS,Pancreas,Trzustka,mortality,2024,World standard population,3.53,4.95,1.4200000000000004,1.4022662889518416,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,SALIVARY,Salivary glands,Ślinianki,incidence,2024,World standard population,0.45,0.65,0.2,1.4444444444444444,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,SALIVARY,Salivary glands,Ślinianki,mortality,2024,World standard population,0.13,0.26,0.13,2.0,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,STOMACH,Stomach,Żołądek,incidence,2024,World standard population,5.73,12.44,6.709999999999999,2.171029668411867,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,STOMACH,Stomach,Żołądek,mortality,2024,World standard population,3.54,8.01,4.47,2.2627118644067794,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,THYROID,Thyroid,Tarczyca,incidence,2024,World standard population,15.36,5.3,-10.059999999999999,0.3450520833333333,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,THYROID,Thyroid,Tarczyca,mortality,2024,World standard population,0.51,0.36,-0.15000000000000002,0.7058823529411764,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,2024,World standard population,3.93,4.97,1.0399999999999996,1.2646310432569974,iarc_globocan_2024,GLOBOCAN 2024
+WORLD,World,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,2024,World standard population,3.92,5.2,1.2800000000000002,1.326530612244898,iarc_globocan_2024,GLOBOCAN 2024

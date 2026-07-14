@@ -1,0 +1,351 @@
+geography_code,measure,cancer_code,cancer_label_en,cancer_label_pl,value,rank,source_id,source_version,year
+ESP,incidence,COLORECTUM,Colorectum,Jelito grube i odbytnica,39156.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,BREAST,Breast,Pierś,31226.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,PROSTATE,Prostate,Gruczoł krokowy,31095.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",28988.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,BLADDER,Bladder,Pęcherz moczowy,22322.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,OTHER,Other specified cancers,Inne określone nowotwory,15709.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,9183.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,PANCREAS,Pancreas,Trzustka,9057.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,KIDNEY,Kidney,Nerka,8089.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,CORPUS_UTERI,Corpus uteri,Trzon macicy,7700.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,STOMACH,Stomach,Żołądek,7359.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,6725.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,MELANOMA,Melanoma of skin,Czerniak skóry,6201.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,LEUKAEMIA,Leukaemia,Białaczka,5701.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,5404.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,THYROID,Thyroid,Tarczyca,5087.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,4455.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,4308.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,OVARY,Ovary,Jajnik,3759.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,LARYNX,Larynx,Krtań,3142.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,MYELOMA,Multiple myeloma,Szpiczak mnogi,3075.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,OESOPHAGUS,Oesophagus,Przełyk,2274.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,TESTIS,Testis,Jądro,2212.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,CERVIX,Cervix uteri,Szyjka macicy,1971.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,1310.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,OROPHARYNX,Oropharynx,Część ustna gardła,1235.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,VULVA,Vulva,Srom,958.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,793.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,746.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,SALIVARY,Salivary glands,Ślinianki,608.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,MESOTHELIOMA,Mesothelioma,Międzybłoniak,543.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,NASOPHARYNX,Nasopharynx,Część nosowa gardła,530.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,PENIS,Penis,Prącie,522.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,275.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,incidence,VAGINA,Vagina,Pochwa,180.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",22728.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,COLORECTUM,Colorectum,Jelito grube i odbytnica,16198.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,PANCREAS,Pancreas,Trzustka,8408.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,BREAST,Breast,Pierś,6830.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,PROSTATE,Prostate,Gruczoł krokowy,6379.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,5938.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,BLADDER,Bladder,Pęcherz moczowy,5933.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,5185.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,STOMACH,Stomach,Żołądek,5113.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,OTHER,Other specified cancers,Inne określone nowotwory,4216.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,3456.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,LEUKAEMIA,Leukaemia,Białaczka,3451.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,3057.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,KIDNEY,Kidney,Nerka,2827.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,OVARY,Ovary,Jajnik,2263.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,OESOPHAGUS,Oesophagus,Przełyk,2002.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,MYELOMA,Multiple myeloma,Szpiczak mnogi,1910.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,CORPUS_UTERI,Corpus uteri,Trzon macicy,1669.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,LARYNX,Larynx,Krtań,1288.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,1283.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,MELANOMA,Melanoma of skin,Czerniak skóry,1118.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,CERVIX,Cervix uteri,Szyjka macicy,893.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,OROPHARYNX,Oropharynx,Część ustna gardła,580.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,MESOTHELIOMA,Mesothelioma,Międzybłoniak,488.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,432.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,VULVA,Vulva,Srom,385.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,THYROID,Thyroid,Tarczyca,383.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,313.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,NASOPHARYNX,Nasopharynx,Część nosowa gardła,235.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,223.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,SALIVARY,Salivary glands,Ślinianki,218.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,PENIS,Penis,Prącie,129.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,VAGINA,Vagina,Pochwa,77.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,TESTIS,Testis,Jądro,57.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,mortality,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,31.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,BREAST,Breast,Pierś,58748.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,PROSTATE,Prostate,Gruczoł krokowy,56622.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,OTHER,Other specified cancers,Inne określone nowotwory,55711.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",54541.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,COLORECTUM,Colorectum,Jelito grube i odbytnica,47318.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,MELANOMA,Melanoma of skin,Czerniak skóry,21745.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,17331.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,KIDNEY,Kidney,Nerka,15944.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,BLADDER,Bladder,Pęcherz moczowy,13716.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,PANCREAS,Pancreas,Trzustka,11876.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,CORPUS_UTERI,Corpus uteri,Trzon macicy,11046.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,LEUKAEMIA,Leukaemia,Białaczka,10525.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,OESOPHAGUS,Oesophagus,Przełyk,9733.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,7820.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,MYELOMA,Multiple myeloma,Szpiczak mnogi,6706.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,6559.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,OVARY,Ovary,Jajnik,6448.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,STOMACH,Stomach,Żołądek,6249.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,6021.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,5839.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,THYROID,Thyroid,Tarczyca,5686.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,CERVIX,Cervix uteri,Szyjka macicy,3309.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,MESOTHELIOMA,Mesothelioma,Międzybłoniak,2873.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,LARYNX,Larynx,Krtań,2669.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,TESTIS,Testis,Jądro,2497.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,OROPHARYNX,Oropharynx,Część ustna gardła,2429.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,2321.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,VULVA,Vulva,Srom,1504.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,1503.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,881.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,PENIS,Penis,Prącie,751.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,SALIVARY,Salivary glands,Ślinianki,737.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,NASOPHARYNX,Nasopharynx,Część nosowa gardła,283.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,VAGINA,Vagina,Pochwa,276.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,incidence,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,162.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",36751.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,COLORECTUM,Colorectum,Jelito grube i odbytnica,22239.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,PROSTATE,Prostate,Gruczoł krokowy,13623.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,BREAST,Breast,Pierś,12425.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,11350.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,PANCREAS,Pancreas,Trzustka,10932.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,OESOPHAGUS,Oesophagus,Przełyk,8853.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,6976.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,BLADDER,Bladder,Pęcherz moczowy,6389.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,OTHER,Other specified cancers,Inne określone nowotwory,5753.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,5296.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,LEUKAEMIA,Leukaemia,Białaczka,5264.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,4732.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,KIDNEY,Kidney,Nerka,4715.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,STOMACH,Stomach,Żołądek,4416.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,OVARY,Ovary,Jajnik,4362.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,MYELOMA,Multiple myeloma,Szpiczak mnogi,3504.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,CORPUS_UTERI,Corpus uteri,Trzon macicy,2700.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,MELANOMA,Melanoma of skin,Czerniak skóry,2590.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,MESOTHELIOMA,Mesothelioma,Międzybłoniak,2552.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,1699.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,CERVIX,Cervix uteri,Szyjka macicy,1107.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,OROPHARYNX,Oropharynx,Część ustna gardła,1018.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,LARYNX,Larynx,Krtań,913.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,784.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,VULVA,Vulva,Srom,547.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,450.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,THYROID,Thyroid,Tarczyca,439.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,327.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,SALIVARY,Salivary glands,Ślinianki,311.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,NASOPHARYNX,Nasopharynx,Część nosowa gardła,194.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,PENIS,Penis,Prącie,179.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,VAGINA,Vagina,Pochwa,137.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,TESTIS,Testis,Jądro,74.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,mortality,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,6.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",30350.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,COLORECTUM,Colorectum,Jelito grube i odbytnica,26463.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,BREAST,Breast,Pierś,23238.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,PROSTATE,Prostate,Gruczoł krokowy,22429.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,OTHER,Other specified cancers,Inne określone nowotwory,11771.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,BLADDER,Bladder,Pęcherz moczowy,10527.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,CORPUS_UTERI,Corpus uteri,Trzon macicy,7704.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,STOMACH,Stomach,Żołądek,7078.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,PANCREAS,Pancreas,Trzustka,6003.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,KIDNEY,Kidney,Nerka,5760.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,LEUKAEMIA,Leukaemia,Białaczka,5038.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,OVARY,Ovary,Jajnik,4820.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,4145.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,3831.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,CERVIX,Cervix uteri,Szyjka macicy,3318.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,MELANOMA,Melanoma of skin,Czerniak skóry,3315.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,3251.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,LARYNX,Larynx,Krtań,3133.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,2894.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,THYROID,Thyroid,Tarczyca,2644.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,2607.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,MYELOMA,Multiple myeloma,Szpiczak mnogi,2399.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,OESOPHAGUS,Oesophagus,Przełyk,1969.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,TESTIS,Testis,Jądro,1524.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,OROPHARYNX,Oropharynx,Część ustna gardła,1357.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,1094.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,832.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,815.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,VULVA,Vulva,Srom,734.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,SALIVARY,Salivary glands,Ślinianki,587.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,MESOTHELIOMA,Mesothelioma,Międzybłoniak,415.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,PENIS,Penis,Prącie,352.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,NASOPHARYNX,Nasopharynx,Część nosowa gardła,220.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,VAGINA,Vagina,Pochwa,137.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,incidence,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,43.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",26050.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,COLORECTUM,Colorectum,Jelito grube i odbytnica,14670.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,BREAST,Breast,Pierś,7664.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,PROSTATE,Prostate,Gruczoł krokowy,6716.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,PANCREAS,Pancreas,Trzustka,5726.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,STOMACH,Stomach,Żołądek,5423.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,4780.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,OTHER,Other specified cancers,Inne określone nowotwory,4753.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,BLADDER,Bladder,Pęcherz moczowy,4721.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,3440.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,LEUKAEMIA,Leukaemia,Białaczka,3112.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,OVARY,Ovary,Jajnik,3084.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,KIDNEY,Kidney,Nerka,2752.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,2472.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,CORPUS_UTERI,Corpus uteri,Trzon macicy,2224.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,1952.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,OESOPHAGUS,Oesophagus,Przełyk,1844.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,CERVIX,Cervix uteri,Szyjka macicy,1768.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,1759.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,MELANOMA,Melanoma of skin,Czerniak skóry,1643.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,LARYNX,Larynx,Krtań,1639.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,MYELOMA,Multiple myeloma,Szpiczak mnogi,1626.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,OROPHARYNX,Oropharynx,Część ustna gardła,883.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,773.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,495.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,THYROID,Thyroid,Tarczyca,438.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,VULVA,Vulva,Srom,417.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,MESOTHELIOMA,Mesothelioma,Międzybłoniak,361.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,SALIVARY,Salivary glands,Ślinianki,278.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,181.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,PENIS,Penis,Prącie,161.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,NASOPHARYNX,Nasopharynx,Część nosowa gardła,156.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,TESTIS,Testis,Jądro,148.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,VAGINA,Vagina,Pochwa,56.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,mortality,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,25.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,OTHER,Other specified cancers,Inne określone nowotwory,600899.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,BREAST,Breast,Pierś,289475.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,PROSTATE,Prostate,Gruczoł krokowy,278556.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",226788.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,COLORECTUM,Colorectum,Jelito grube i odbytnica,169498.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,MELANOMA,Melanoma of skin,Czerniak skóry,99144.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,BLADDER,Bladder,Pęcherz moczowy,85757.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,74406.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,KIDNEY,Kidney,Nerka,73601.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,CORPUS_UTERI,Corpus uteri,Trzon macicy,66847.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,PANCREAS,Pancreas,Trzustka,65155.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,LEUKAEMIA,Leukaemia,Białaczka,63566.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,THYROID,Thyroid,Tarczyca,48240.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,41357.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,MYELOMA,Multiple myeloma,Szpiczak mnogi,32478.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,32456.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,29547.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,STOMACH,Stomach,Żołądek,27638.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,24567.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,OESOPHAGUS,Oesophagus,Przełyk,22010.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,OVARY,Ovary,Jajnik,20820.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,OROPHARYNX,Oropharynx,Część ustna gardła,15753.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,CERVIX,Cervix uteri,Szyjka macicy,13815.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,LARYNX,Larynx,Krtań,13200.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,TESTIS,Testis,Jądro,9544.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,8699.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,VULVA,Vulva,Srom,6482.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,SALIVARY,Salivary glands,Ślinianki,5420.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,4813.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,MESOTHELIOMA,Mesothelioma,Międzybłoniak,3216.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,2521.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,NASOPHARYNX,Nasopharynx,Część nosowa gardła,2127.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,PENIS,Penis,Prącie,1744.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,VAGINA,Vagina,Pochwa,1551.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,incidence,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,1039.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",129504.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,COLORECTUM,Colorectum,Jelito grube i odbytnica,57248.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,PANCREAS,Pancreas,Trzustka,52703.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,50666.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,BREAST,Breast,Pierś,45822.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,PROSTATE,Prostate,Gruczoł krokowy,36047.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,31269.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,LEUKAEMIA,Leukaemia,Białaczka,24193.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,OTHER,Other specified cancers,Inne określone nowotwory,23327.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,20825.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,18883.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,BLADDER,Bladder,Pęcherz moczowy,18280.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,OESOPHAGUS,Oesophagus,Przełyk,16680.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,KIDNEY,Kidney,Nerka,14996.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,OVARY,Ovary,Jajnik,13360.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,MYELOMA,Multiple myeloma,Szpiczak mnogi,13324.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,CORPUS_UTERI,Corpus uteri,Trzon macicy,12574.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,STOMACH,Stomach,Żołądek,11148.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,MELANOMA,Melanoma of skin,Czerniak skóry,8638.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,5264.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,CERVIX,Cervix uteri,Szyjka macicy,5037.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,LARYNX,Larynx,Krtań,4216.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,OROPHARYNX,Oropharynx,Część ustna gardła,4144.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,MESOTHELIOMA,Mesothelioma,Międzybłoniak,2567.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,THYROID,Thyroid,Tarczyca,2322.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,2182.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,VULVA,Vulva,Srom,1657.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,SALIVARY,Salivary glands,Ślinianki,1171.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,1053.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,NASOPHARYNX,Nasopharynx,Część nosowa gardła,886.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,724.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,TESTIS,Testis,Jądro,507.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,VAGINA,Vagina,Pochwa,453.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,PENIS,Penis,Prącie,390.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,mortality,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,106.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",2637005.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,BREAST,Breast,Pierś,2434087.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,COLORECTUM,Colorectum,Jelito grube i odbytnica,2041007.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,OTHER,Other specified cancers,Inne określone nowotwory,1870413.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,PROSTATE,Prostate,Gruczoł krokowy,1546112.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,STOMACH,Stomach,Żołądek,980286.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,THYROID,Thyroid,Tarczyca,959281.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,843045.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,BLADDER,Bladder,Pęcherz moczowy,635264.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,CERVIX,Cervix uteri,Szyjka macicy,604196.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,562793.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,PANCREAS,Pancreas,Trzustka,531318.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,LEUKAEMIA,Leukaemia,Białaczka,495113.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,OESOPHAGUS,Oesophagus,Przełyk,494320.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,470612.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,452205.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,KIDNEY,Kidney,Nerka,442570.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,CORPUS_UTERI,Corpus uteri,Trzon macicy,434620.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,MELANOMA,Melanoma of skin,Czerniak skóry,337969.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,OVARY,Ovary,Jajnik,330731.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,324095.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,MYELOMA,Multiple myeloma,Szpiczak mnogi,196157.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,LARYNX,Larynx,Krtań,193937.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,126384.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,NASOPHARYNX,Nasopharynx,Część nosowa gardła,119750.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,OROPHARYNX,Oropharynx,Część ustna gardła,107887.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,91464.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,84495.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,TESTIS,Testis,Jądro,70714.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,SALIVARY,Salivary glands,Ślinianki,55229.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,VULVA,Vulva,Srom,48894.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,PENIS,Penis,Prącie,34765.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,34230.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,MESOTHELIOMA,Mesothelioma,Międzybłoniak,27350.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,incidence,VAGINA,Vagina,Pochwa,18143.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",1861839.0,1,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,COLORECTUM,Colorectum,Jelito grube i odbytnica,917895.0,2,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,732489.0,3,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,BREAST,Breast,Pierś,693660.0,4,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,STOMACH,Stomach,Żołądek,641554.0,5,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,492804.0,6,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,PANCREAS,Pancreas,Trzustka,490786.0,7,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,OTHER,Other specified cancers,Inne określone nowotwory,443440.0,8,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,OESOPHAGUS,Oesophagus,Przełyk,441994.0,9,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,PROSTATE,Prostate,Gruczoł krokowy,419849.0,10,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,LEUKAEMIA,Leukaemia,Białaczka,292234.0,11,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,CERVIX,Cervix uteri,Szyjka macicy,279583.0,12,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,248964.0,13,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,234903.0,14,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,BLADDER,Bladder,Pęcherz moczowy,227626.0,15,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,OVARY,Ovary,Jajnik,203850.0,16,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,194108.0,17,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,KIDNEY,Kidney,Nerka,144871.0,18,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,MYELOMA,Multiple myeloma,Szpiczak mnogi,119029.0,19,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,CORPUS_UTERI,Corpus uteri,Trzon macicy,100680.0,20,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,LARYNX,Larynx,Krtań,96619.0,21,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,92029.0,22,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,NASOPHARYNX,Nasopharynx,Część nosowa gardła,62060.0,23,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,MELANOMA,Melanoma of skin,Czerniak skóry,58398.0,24,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,OROPHARYNX,Oropharynx,Część ustna gardła,51823.0,25,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,49748.0,26,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,THYROID,Thyroid,Tarczyca,48070.0,27,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,MESOTHELIOMA,Mesothelioma,Międzybłoniak,22715.0,28,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,SALIVARY,Salivary glands,Ślinianki,20707.0,29,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,19515.0,30,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,VULVA,Vulva,Srom,18868.0,31,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,PENIS,Penis,Prącie,12346.0,32,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,10727.0,33,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,TESTIS,Testis,Jądro,9240.0,34,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,mortality,VAGINA,Vagina,Pochwa,7484.0,35,iarc_globocan_2024,GLOBOCAN 2024,2024

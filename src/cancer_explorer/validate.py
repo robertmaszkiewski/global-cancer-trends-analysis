@@ -108,6 +108,46 @@ def validate_dataset(frame: pd.DataFrame) -> pd.DataFrame:
             frame["evidence_type"].eq("projected") & frame["projection_base_year"].isna(),
             "Projected values require their baseline year.",
         )
+        projected = frame[
+            frame["evidence_type"].eq("projected")
+            & frame["projection_base_year"].notna()
+            & frame["year"].eq(frame["projection_base_year"])
+            & frame["metric"].eq("number")
+            & frame["age_start"].eq(0)
+            & frame["age_end"].eq(125)
+            & ~frame["cancer_code"].isin(["OTHER", "UNSPECIFIED"])
+        ]
+        modelled = frame[
+            frame["evidence_type"].eq("modelled")
+            & frame["metric"].eq("number")
+            & frame["age_start"].eq(0)
+            & frame["age_end"].eq(125)
+            & ~frame["cancer_code"].isin(["OTHER", "UNSPECIFIED"])
+        ]
+        comparison_keys = [
+            "geography_code", "year", "cancer_code", "sex", "measure", "metric",
+            "age_start", "age_end",
+        ]
+        if not projected.empty and not modelled.empty:
+            comparison = projected.merge(
+                modelled[comparison_keys + ["value"]],
+                on=comparison_keys,
+                how="inner",
+                suffixes=("_projected", "_snapshot"),
+            )
+            mismatch = (
+                (comparison["value_projected"] - comparison["value_snapshot"]).abs()
+                / comparison["value_snapshot"].replace(0, pd.NA)
+            ).gt(0.005)
+            if mismatch.any():
+                issues.append(
+                    {
+                        "severity": "error",
+                        "code": "projection_baseline_mismatch",
+                        "count": int(mismatch.sum()),
+                        "detail": "Projection base counts must reconcile with the matching modelled snapshot within 0.5%.",
+                    }
+                )
     return pd.DataFrame(issues, columns=ISSUE_COLUMNS)
 
 
@@ -135,7 +175,7 @@ def write_quality_report(frame: pd.DataFrame, issues: pd.DataFrame, output: Path
     lines = [
         "# Data quality report",
         "",
-        f"Validated canonical records: **{len(frame):,}**  ",
+        f"Validated canonical records: **{len(frame):,}**",
         f"Validation issue types at error severity: **{errors}**",
         "",
         "## Coverage by evidence source",

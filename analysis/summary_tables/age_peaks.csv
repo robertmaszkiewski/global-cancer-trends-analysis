@@ -1,0 +1,351 @@
+geography_code,geography_name,cancer_code,cancer_label_en,cancer_label_pl,measure,age_start,age_end,age_group_label,value,source_id,source_version,year
+ESP,Spain,BLADDER,Bladder,Pęcherz moczowy,incidence,80,84,80-84,189.88,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,BLADDER,Bladder,Pęcherz moczowy,mortality,85,125,85+,124.15,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,80,84,80-84,24.02,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,75,79,75-79,22.05,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,BREAST,Breast,Pierś,incidence,75,79,75-79,231.14,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,BREAST,Breast,Pierś,mortality,85,125,85+,168.16,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,CERVIX,Cervix uteri,Szyjka macicy,incidence,80,84,80-84,19.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,CERVIX,Cervix uteri,Szyjka macicy,mortality,85,125,85+,12.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,85,125,85+,374.62,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,85,125,85+,305.38,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,CORPUS_UTERI,Corpus uteri,Trzon macicy,incidence,70,74,70-74,78.85,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,CORPUS_UTERI,Corpus uteri,Trzon macicy,mortality,85,125,85+,42.02,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,85,125,85+,9.21,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,85,125,85+,8.28,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,15,19,15-19,6.41,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,85,125,85+,2.55,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,70,74,70-74,5.71,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,70,74,70-74,2.31,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,85,125,85+,1.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,85,125,85+,0.87,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,KIDNEY,Kidney,Nerka,incidence,80,84,80-84,49.36,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,KIDNEY,Kidney,Nerka,mortality,85,125,85+,40.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LARYNX,Larynx,Krtań,incidence,80,84,80-84,20.65,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LARYNX,Larynx,Krtań,mortality,85,125,85+,11.27,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LEUKAEMIA,Leukaemia,Białaczka,incidence,85,125,85+,61.51,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LEUKAEMIA,Leukaemia,Białaczka,mortality,85,125,85+,60.14,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,85,125,85+,36.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,85,125,85+,16.5,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,85,125,85+,54.04,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,85,125,85+,67.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,75,79,75-79,211.64,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,80,84,80-84,189.6,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,85,125,85+,38.73,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,85,125,85+,16.25,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,80,84,80-84,6.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,80,84,80-84,6.3,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,85,125,85+,34.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,85,125,85+,34.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,60,64,60-64,2.19,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,80,84,80-84,1.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,80,84,80-84,58.25,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,85,125,85+,47.44,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OESOPHAGUS,Oesophagus,Przełyk,incidence,80,84,80-84,14.7,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OESOPHAGUS,Oesophagus,Przełyk,mortality,80,84,80-84,15.19,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,65,69,65-69,8.16,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,65,69,65-69,3.97,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OTHER,Other specified cancers,Inne określone nowotwory,incidence,85,125,85+,238.7,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OTHER,Other specified cancers,Inne określone nowotwory,mortality,85,125,85+,76.58,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OVARY,Ovary,Jajnik,incidence,85,125,85+,33.8,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,OVARY,Ovary,Jajnik,mortality,85,125,85+,34.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PANCREAS,Pancreas,Trzustka,incidence,85,125,85+,96.81,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PANCREAS,Pancreas,Trzustka,mortality,85,125,85+,101.67,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PENIS,Penis,Prącie,incidence,85,125,85+,22.48,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PENIS,Penis,Prącie,mortality,85,125,85+,6.95,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PROSTATE,Prostate,Gruczoł krokowy,incidence,70,74,70-74,520.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,PROSTATE,Prostate,Gruczoł krokowy,mortality,85,125,85+,488.62,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,SALIVARY,Salivary glands,Ślinianki,incidence,85,125,85+,6.48,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,SALIVARY,Salivary glands,Ślinianki,mortality,85,125,85+,4.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,STOMACH,Stomach,Żołądek,incidence,85,125,85+,77.2,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,STOMACH,Stomach,Żołądek,mortality,85,125,85+,75.58,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,TESTIS,Testis,Jądro,incidence,25,29,25-29,39.72,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,TESTIS,Testis,Jądro,mortality,85,125,85+,0.91,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,THYROID,Thyroid,Tarczyca,incidence,55,59,55-59,18.57,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,THYROID,Thyroid,Tarczyca,mortality,85,125,85+,6.16,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,85,125,85+,91.71,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,85,125,85+,97.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,VAGINA,Vagina,Pochwa,incidence,80,84,80-84,4.8,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,VAGINA,Vagina,Pochwa,mortality,85,125,85+,2.64,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,VULVA,Vulva,Srom,incidence,85,125,85+,21.72,iarc_globocan_2024,GLOBOCAN 2024,2024
+ESP,Spain,VULVA,Vulva,Srom,mortality,85,125,85+,16.24,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BLADDER,Bladder,Pęcherz moczowy,incidence,85,125,85+,152.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BLADDER,Bladder,Pęcherz moczowy,mortality,85,125,85+,130.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,85,125,85+,24.98,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,80,84,80-84,23.46,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BREAST,Breast,Pierś,incidence,80,84,80-84,394.77,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,BREAST,Breast,Pierś,mortality,85,125,85+,263.75,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,CERVIX,Cervix uteri,Szyjka macicy,incidence,35,39,35-39,17.78,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,CERVIX,Cervix uteri,Szyjka macicy,mortality,85,125,85+,11.19,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,85,125,85+,377.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,85,125,85+,334.72,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,CORPUS_UTERI,Corpus uteri,Trzon macicy,incidence,75,79,75-79,100.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,CORPUS_UTERI,Corpus uteri,Trzon macicy,mortality,85,125,85+,52.07,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,85,125,85+,16.66,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,85,125,85+,10.2,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,80,84,80-84,5.2,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,85,125,85+,3.86,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,65,69,65-69,4.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,80,84,80-84,3.09,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,40,44,40-44,0.46,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,85,125,85+,0.06,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,KIDNEY,Kidney,Nerka,incidence,85,125,85+,96.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,KIDNEY,Kidney,Nerka,mortality,85,125,85+,57.14,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LARYNX,Larynx,Krtań,incidence,75,79,75-79,13.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LARYNX,Larynx,Krtań,mortality,85,125,85+,7.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LEUKAEMIA,Leukaemia,Białaczka,incidence,85,125,85+,82.67,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LEUKAEMIA,Leukaemia,Białaczka,mortality,85,125,85+,75.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,75,79,75-79,23.47,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,85,125,85+,14.45,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,85,125,85+,65.47,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,85,125,85+,72.47,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,85,125,85+,412.49,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,85,125,85+,352.15,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,85,125,85+,130.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,85,125,85+,31.88,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,85,125,85+,34.86,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,85,125,85+,29.45,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,85,125,85+,52.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,85,125,85+,51.4,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,60,64,60-64,0.96,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,85,125,85+,1.43,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,85,125,85+,118.8,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,85,125,85+,74.07,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OESOPHAGUS,Oesophagus,Przełyk,incidence,85,125,85+,75.39,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OESOPHAGUS,Oesophagus,Przełyk,mortality,85,125,85+,89.73,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,60,64,60-64,10.33,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,70,74,70-74,4.64,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OTHER,Other specified cancers,Inne określone nowotwory,incidence,85,125,85+,742.13,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OTHER,Other specified cancers,Inne określone nowotwory,mortality,85,125,85+,77.49,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OVARY,Ovary,Jajnik,incidence,85,125,85+,63.8,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,OVARY,Ovary,Jajnik,mortality,85,125,85+,66.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PANCREAS,Pancreas,Trzustka,incidence,85,125,85+,108.82,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PANCREAS,Pancreas,Trzustka,mortality,85,125,85+,115.88,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PENIS,Penis,Prącie,incidence,85,125,85+,11.49,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PENIS,Penis,Prącie,mortality,85,125,85+,4.82,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PROSTATE,Prostate,Gruczoł krokowy,incidence,80,84,80-84,789.76,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,PROSTATE,Prostate,Gruczoł krokowy,mortality,85,125,85+,761.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,SALIVARY,Salivary glands,Ślinianki,incidence,85,125,85+,4.85,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,SALIVARY,Salivary glands,Ślinianki,mortality,85,125,85+,5.24,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,STOMACH,Stomach,Żołądek,incidence,85,125,85+,57.03,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,STOMACH,Stomach,Żołądek,mortality,85,125,85+,58.63,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,TESTIS,Testis,Jądro,incidence,35,39,35-39,16.66,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,TESTIS,Testis,Jądro,mortality,85,125,85+,0.57,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,THYROID,Thyroid,Tarczyca,incidence,60,64,60-64,13.05,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,THYROID,Thyroid,Tarczyca,mortality,85,125,85+,5.57,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,85,125,85+,105.12,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,85,125,85+,176.27,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,VAGINA,Vagina,Pochwa,incidence,85,125,85+,3.25,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,VAGINA,Vagina,Pochwa,mortality,85,125,85+,3.88,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,VULVA,Vulva,Srom,incidence,85,125,85+,24.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+GBR,United Kingdom,VULVA,Vulva,Srom,mortality,85,125,85+,17.51,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BLADDER,Bladder,Pęcherz moczowy,incidence,75,79,75-79,123.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BLADDER,Bladder,Pęcherz moczowy,mortality,85,125,85+,101.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,85,125,85+,33.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,85,125,85+,30.12,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BREAST,Breast,Pierś,incidence,70,74,70-74,247.05,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,BREAST,Breast,Pierś,mortality,85,125,85+,226.06,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,CERVIX,Cervix uteri,Szyjka macicy,incidence,70,74,70-74,31.27,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,CERVIX,Cervix uteri,Szyjka macicy,mortality,85,125,85+,30.1,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,85,125,85+,369.55,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,85,125,85+,293.11,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,CORPUS_UTERI,Corpus uteri,Trzon macicy,incidence,70,74,70-74,111.42,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,CORPUS_UTERI,Corpus uteri,Trzon macicy,mortality,85,125,85+,71.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,85,125,85+,19.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,85,125,85+,12.53,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,20,24,20-24,3.85,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,75,79,75-79,1.71,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,65,69,65-69,7.05,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,65,69,65-69,4.04,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,80,84,80-84,0.78,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,85,125,85+,0.46,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,KIDNEY,Kidney,Nerka,incidence,85,125,85+,59.66,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,KIDNEY,Kidney,Nerka,mortality,85,125,85+,45.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LARYNX,Larynx,Krtań,incidence,80,84,80-84,31.79,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LARYNX,Larynx,Krtań,mortality,70,74,70-74,14.48,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LEUKAEMIA,Leukaemia,Białaczka,incidence,85,125,85+,64.94,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LEUKAEMIA,Leukaemia,Białaczka,mortality,85,125,85+,65.63,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,65,69,65-69,20.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,85,125,85+,16.44,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,85,125,85+,31.5,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,85,125,85+,31.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,70,74,70-74,302.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,75,79,75-79,288.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,85,125,85+,32.53,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,85,125,85+,41.27,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,70,74,70-74,3.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,75,79,75-79,4.55,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,80,84,80-84,27.14,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,80,84,80-84,25.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,70,74,70-74,1.42,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,80,84,80-84,1.29,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,80,84,80-84,34.24,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,85,125,85+,33.45,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OESOPHAGUS,Oesophagus,Przełyk,incidence,70,74,70-74,15.25,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OESOPHAGUS,Oesophagus,Przełyk,mortality,70,74,70-74,14.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,65,69,65-69,10.34,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,65,69,65-69,7.01,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OTHER,Other specified cancers,Inne określone nowotwory,incidence,85,125,85+,233.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OTHER,Other specified cancers,Inne określone nowotwory,mortality,85,125,85+,123.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OVARY,Ovary,Jajnik,incidence,75,79,75-79,55.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,OVARY,Ovary,Jajnik,mortality,80,84,80-84,49.89,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PANCREAS,Pancreas,Trzustka,incidence,85,125,85+,73.11,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PANCREAS,Pancreas,Trzustka,mortality,85,125,85+,73.68,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PENIS,Penis,Prącie,incidence,80,84,80-84,9.0,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PENIS,Penis,Prącie,mortality,85,125,85+,8.97,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PROSTATE,Prostate,Gruczoł krokowy,incidence,75,79,75-79,665.35,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,PROSTATE,Prostate,Gruczoł krokowy,mortality,85,125,85+,643.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,SALIVARY,Salivary glands,Ślinianki,incidence,85,125,85+,6.32,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,SALIVARY,Salivary glands,Ślinianki,mortality,85,125,85+,6.78,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,STOMACH,Stomach,Żołądek,incidence,80,84,80-84,71.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,STOMACH,Stomach,Żołądek,mortality,85,125,85+,84.37,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,TESTIS,Testis,Jądro,incidence,30,34,30-34,18.91,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,TESTIS,Testis,Jądro,mortality,85,125,85+,2.45,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,THYROID,Thyroid,Tarczyca,incidence,65,69,65-69,12.6,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,THYROID,Thyroid,Tarczyca,mortality,85,125,85+,7.82,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,85,125,85+,40.12,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,85,125,85+,93.34,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,VAGINA,Vagina,Pochwa,incidence,80,84,80-84,3.35,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,VAGINA,Vagina,Pochwa,mortality,85,125,85+,2.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,VULVA,Vulva,Srom,incidence,85,125,85+,20.01,iarc_globocan_2024,GLOBOCAN 2024,2024
+POL,Poland,VULVA,Vulva,Srom,mortality,85,125,85+,19.37,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BLADDER,Bladder,Pęcherz moczowy,incidence,85,125,85+,182.99,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BLADDER,Bladder,Pęcherz moczowy,mortality,85,125,85+,88.3,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,85,125,85+,21.11,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,85,125,85+,22.99,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BREAST,Breast,Pierś,incidence,75,79,75-79,453.65,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,BREAST,Breast,Pierś,mortality,85,125,85+,185.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,CERVIX,Cervix uteri,Szyjka macicy,incidence,45,49,45-49,15.7,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,CERVIX,Cervix uteri,Szyjka macicy,mortality,85,125,85+,8.49,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,85,125,85+,223.7,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,85,125,85+,150.0,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,CORPUS_UTERI,Corpus uteri,Trzon macicy,incidence,70,74,70-74,116.55,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,CORPUS_UTERI,Corpus uteri,Trzon macicy,mortality,85,125,85+,36.44,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,85,125,85+,8.66,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,85,125,85+,5.38,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,25,29,25-29,3.63,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,85,125,85+,2.41,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,75,79,75-79,2.68,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,75,79,75-79,0.95,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,85,125,85+,0.91,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,85,125,85+,0.24,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,KIDNEY,Kidney,Nerka,incidence,75,79,75-79,65.52,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,KIDNEY,Kidney,Nerka,mortality,85,125,85+,37.01,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LARYNX,Larynx,Krtań,incidence,75,79,75-79,13.42,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LARYNX,Larynx,Krtań,mortality,85,125,85+,6.83,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LEUKAEMIA,Leukaemia,Białaczka,incidence,85,125,85+,102.43,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LEUKAEMIA,Leukaemia,Białaczka,mortality,85,125,85+,81.83,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,80,84,80-84,29.97,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,85,125,85+,12.04,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,75,79,75-79,52.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,85,125,85+,50.93,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,80,84,80-84,336.42,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,85,125,85+,264.35,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,85,125,85+,136.36,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,85,125,85+,23.85,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,85,125,85+,7.75,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,85,125,85+,7.99,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,80,84,80-84,46.33,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,85,125,85+,42.85,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,65,69,65-69,1.52,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,85,125,85+,1.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,85,125,85+,114.41,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,85,125,85+,70.75,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OESOPHAGUS,Oesophagus,Przełyk,incidence,80,84,80-84,27.96,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OESOPHAGUS,Oesophagus,Przełyk,mortality,85,125,85+,27.44,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,65,69,65-69,14.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,85,125,85+,4.8,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OTHER,Other specified cancers,Inne określone nowotwory,incidence,85,125,85+,1603.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OTHER,Other specified cancers,Inne określone nowotwory,mortality,85,125,85+,64.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OVARY,Ovary,Jajnik,incidence,85,125,85+,37.58,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,OVARY,Ovary,Jajnik,mortality,85,125,85+,41.67,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PANCREAS,Pancreas,Trzustka,incidence,85,125,85+,112.83,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PANCREAS,Pancreas,Trzustka,mortality,85,125,85+,115.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PENIS,Penis,Prącie,incidence,85,125,85+,8.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PENIS,Penis,Prącie,mortality,85,125,85+,2.67,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PROSTATE,Prostate,Gruczoł krokowy,incidence,70,74,70-74,743.03,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,PROSTATE,Prostate,Gruczoł krokowy,mortality,85,125,85+,434.41,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,SALIVARY,Salivary glands,Ślinianki,incidence,85,125,85+,9.16,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,SALIVARY,Salivary glands,Ślinianki,mortality,85,125,85+,4.07,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,STOMACH,Stomach,Żołądek,incidence,85,125,85+,40.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,STOMACH,Stomach,Żołądek,mortality,85,125,85+,24.91,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,TESTIS,Testis,Jądro,incidence,30,34,30-34,12.79,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,TESTIS,Testis,Jądro,mortality,85,125,85+,0.69,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,THYROID,Thyroid,Tarczyca,incidence,60,64,60-64,22.77,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,THYROID,Thyroid,Tarczyca,mortality,85,125,85+,6.88,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,85,125,85+,91.48,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,85,125,85+,146.02,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,VAGINA,Vagina,Pochwa,incidence,85,125,85+,4.7,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,VAGINA,Vagina,Pochwa,mortality,85,125,85+,2.6,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,VULVA,Vulva,Srom,incidence,85,125,85+,20.08,iarc_globocan_2024,GLOBOCAN 2024,2024
+USA,United States,VULVA,Vulva,Srom,mortality,85,125,85+,10.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BLADDER,Bladder,Pęcherz moczowy,incidence,85,125,85+,97.68,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BLADDER,Bladder,Pęcherz moczowy,mortality,85,125,85+,65.13,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,incidence,85,125,85+,17.21,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BRAIN_CNS,"Brain, central nervous system",Mózg i ośrodkowy układ nerwowy,mortality,85,125,85+,16.87,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BREAST,Breast,Pierś,incidence,80,84,80-84,192.86,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,BREAST,Breast,Pierś,mortality,85,125,85+,118.73,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,CERVIX,Cervix uteri,Szyjka macicy,incidence,55,59,55-59,38.51,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,CERVIX,Cervix uteri,Szyjka macicy,mortality,80,84,80-84,20.76,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,COLORECTUM,Colorectum,Jelito grube i odbytnica,incidence,85,125,85+,237.15,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,COLORECTUM,Colorectum,Jelito grube i odbytnica,mortality,85,125,85+,192.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,CORPUS_UTERI,Corpus uteri,Trzon macicy,incidence,65,69,65-69,42.51,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,CORPUS_UTERI,Corpus uteri,Trzon macicy,mortality,85,125,85+,21.1,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,incidence,85,125,85+,15.77,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,GALLBLADDER,Gallbladder,Pęcherzyk żółciowy,mortality,85,125,85+,14.52,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,incidence,85,125,85+,2.29,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,HODGKIN,Hodgkin lymphoma,Chłoniak Hodgkina,mortality,85,125,85+,1.75,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,incidence,70,74,70-74,4.98,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,HYPOPHARYNX,Hypopharynx,Część krtaniowa gardła,mortality,75,79,75-79,2.83,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,incidence,85,125,85+,1.3,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,KAPOSI,Kaposi sarcoma,Mięsak Kaposiego,mortality,85,125,85+,0.4,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,KIDNEY,Kidney,Nerka,incidence,85,125,85+,31.66,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,KIDNEY,Kidney,Nerka,mortality,85,125,85+,25.68,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LARYNX,Larynx,Krtań,incidence,75,79,75-79,12.29,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LARYNX,Larynx,Krtań,mortality,80,84,80-84,7.86,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LEUKAEMIA,Leukaemia,Białaczka,incidence,85,125,85+,44.34,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LEUKAEMIA,Leukaemia,Białaczka,mortality,85,125,85+,41.71,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,incidence,85,125,85+,24.11,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LIP_ORAL,"Lip, oral cavity",Warga i jama ustna,mortality,85,125,85+,15.56,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,incidence,85,125,85+,73.53,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LIVER,Liver and intrahepatic bile ducts,Wątroba i wewnątrzwątrobowe drogi żółciowe,mortality,85,125,85+,79.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",incidence,80,84,80-84,251.04,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,LUNG,"Trachea, bronchus and lung","Tchawica, oskrzela i płuco",mortality,85,125,85+,243.95,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MELANOMA,Melanoma of skin,Czerniak skóry,incidence,85,125,85+,39.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MELANOMA,Melanoma of skin,Czerniak skóry,mortality,85,125,85+,12.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MESOTHELIOMA,Mesothelioma,Międzybłoniak,incidence,85,125,85+,4.43,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MESOTHELIOMA,Mesothelioma,Międzybłoniak,mortality,85,125,85+,4.64,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MYELOMA,Multiple myeloma,Szpiczak mnogi,incidence,85,125,85+,19.89,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,MYELOMA,Multiple myeloma,Szpiczak mnogi,mortality,85,125,85+,19.79,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,NASOPHARYNX,Nasopharynx,Część nosowa gardła,incidence,55,59,55-59,4.1,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,NASOPHARYNX,Nasopharynx,Część nosowa gardła,mortality,80,84,80-84,2.92,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,incidence,85,125,85+,51.9,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,NHL,Non-Hodgkin lymphoma,Chłoniak nieziarniczy,mortality,85,125,85+,40.17,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OESOPHAGUS,Oesophagus,Przełyk,incidence,80,84,80-84,41.99,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OESOPHAGUS,Oesophagus,Przełyk,mortality,85,125,85+,45.25,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OROPHARYNX,Oropharynx,Część ustna gardła,incidence,65,69,65-69,5.83,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OROPHARYNX,Oropharynx,Część ustna gardła,mortality,80,84,80-84,3.28,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OTHER,Other specified cancers,Inne określone nowotwory,incidence,85,125,85+,342.76,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OTHER,Other specified cancers,Inne określone nowotwory,mortality,85,125,85+,79.6,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OVARY,Ovary,Jajnik,incidence,80,84,80-84,25.96,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,OVARY,Ovary,Jajnik,mortality,85,125,85+,26.64,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PANCREAS,Pancreas,Trzustka,incidence,85,125,85+,78.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PANCREAS,Pancreas,Trzustka,mortality,85,125,85+,87.34,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PENIS,Penis,Prącie,incidence,85,125,85+,8.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PENIS,Penis,Prącie,mortality,85,125,85+,4.86,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PROSTATE,Prostate,Gruczoł krokowy,incidence,85,125,85+,428.84,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,PROSTATE,Prostate,Gruczoł krokowy,mortality,85,125,85+,361.04,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,SALIVARY,Salivary glands,Ślinianki,incidence,85,125,85+,4.54,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,SALIVARY,Salivary glands,Ślinianki,mortality,85,125,85+,3.33,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,STOMACH,Stomach,Żołądek,incidence,85,125,85+,110.59,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,STOMACH,Stomach,Żołądek,mortality,85,125,85+,100.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,TESTIS,Testis,Jądro,incidence,30,34,30-34,3.61,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,TESTIS,Testis,Jądro,mortality,85,125,85+,1.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,THYROID,Thyroid,Tarczyca,incidence,55,59,55-59,28.22,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,THYROID,Thyroid,Tarczyca,mortality,85,125,85+,6.74,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,incidence,85,125,85+,57.19,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,UNSPECIFIED,Unspecified sites,Nowotwory o nieokreślonym umiejscowieniu,mortality,85,125,85+,75.18,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,VAGINA,Vagina,Pochwa,incidence,80,84,80-84,2.4,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,VAGINA,Vagina,Pochwa,mortality,85,125,85+,1.76,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,VULVA,Vulva,Srom,incidence,85,125,85+,12.21,iarc_globocan_2024,GLOBOCAN 2024,2024
+WORLD,World,VULVA,Vulva,Srom,mortality,85,125,85+,7.56,iarc_globocan_2024,GLOBOCAN 2024,2024

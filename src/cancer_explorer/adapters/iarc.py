@@ -205,20 +205,24 @@ class IARCClient:
         flattened: list[dict[str, Any]] = []
         for geography_code in geography_codes:
             population = POPULATION_CODES[geography_code]
-            payload = self.get_json(f"data/prediction/0_1/0_1_2/{population}/{cancer_path}/")
-            for row in payload.get("dataset", []):
-                flattened.append(
-                    {
-                        **row,
-                        "record_kind": "projection",
-                        "release_year": 2024,
-                        "country_code": row["id"],
-                        "country_name": row.get("id_label", geography_details(geography_code)[1]),
-                        "cancer_code": row["cancer"],
-                        "cancer_label": row.get("cancer_label", cancers[int(row["cancer"])]),
-                        "cases_pred": row["cases_pred"],
-                    }
-                )
+            # Request both-sex totals separately. The API treats ``0_1_2`` as
+            # an aggregate selection and would sum both + male + female,
+            # double-counting the population baseline.
+            for sex_path in ["0", "1_2"]:
+                payload = self.get_json(f"data/prediction/0_1/{sex_path}/{population}/{cancer_path}/")
+                for row in payload.get("dataset", []):
+                    flattened.append(
+                        {
+                            **row,
+                            "record_kind": "projection",
+                            "release_year": 2024,
+                            "country_code": row["id"],
+                            "country_name": row.get("id_label", geography_details(geography_code)[1]),
+                            "cancer_code": row["cancer"],
+                            "cancer_label": row.get("cancer_label", cancers[int(row["cancer"])]),
+                            "cases_pred": row["cases_pred"],
+                        }
+                    )
         return pd.DataFrame(flattened)
 
 

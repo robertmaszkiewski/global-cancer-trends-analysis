@@ -81,3 +81,18 @@ def test_coverage_table_reports_each_source_dimension_and_year_range():
     assert coverage["last_year"].iloc[0] == 2024
     assert coverage["geographies"].iloc[0] == 2
     assert coverage["cancers"].iloc[0] == 1
+
+
+def test_projection_baseline_must_match_the_modelled_snapshot():
+    snapshot = valid_row(metric="number", standard_population=None, value=100)
+    projection = valid_row(
+        source_id="iarc_cancer_tomorrow",
+        evidence_type="projected",
+        metric="number",
+        standard_population=None,
+        value=200,
+        projection_base_year=2024,
+    )
+    issues = validate_dataset(pd.DataFrame([snapshot, projection]))
+
+    assert "projection_baseline_mismatch" in set(issues["code"])

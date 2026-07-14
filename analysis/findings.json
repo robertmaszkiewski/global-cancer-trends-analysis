@@ -1,0 +1,197 @@
+{
+  "generated_from": "data/processed/cancer_observations.parquet",
+  "record_count": 386916,
+  "findings": [
+    {
+      "id": "world_incidence_leader",
+      "category": "current_burden",
+      "title_en": "Most commonly diagnosed cancer worldwide",
+      "title_pl": "Najczęściej rozpoznawany nowotwór na świecie",
+      "narrative_en": "Trachea, bronchus and lung ranks first in GLOBOCAN 2024 with an estimated 2,637,005 new cases.",
+      "narrative_pl": "Tchawica, oskrzela i płuco zajmuje pierwsze miejsce w GLOBOCAN 2024: szacunkowo 2,637,005 nowych zachorowań.",
+      "value": 2637005.0,
+      "filters": {
+        "geography": "WORLD",
+        "year": 2024,
+        "measure": "incidence",
+        "metric": "number",
+        "sex": "both"
+      },
+      "provenance": {
+        "source_id": "iarc_globocan_2024",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "modelled"
+      }
+    },
+    {
+      "id": "world_mortality_leader",
+      "category": "current_burden",
+      "title_en": "Leading cause of cancer death worldwide",
+      "title_pl": "Główna przyczyna zgonów nowotworowych na świecie",
+      "narrative_en": "Trachea, bronchus and lung ranks first in GLOBOCAN 2024 with an estimated 1,861,839 deaths.",
+      "narrative_pl": "Tchawica, oskrzela i płuco zajmuje pierwsze miejsce w GLOBOCAN 2024: szacunkowo 1,861,839 zgonów.",
+      "value": 1861839.0,
+      "filters": {
+        "geography": "WORLD",
+        "year": 2024,
+        "measure": "mortality",
+        "metric": "number",
+        "sex": "both"
+      },
+      "provenance": {
+        "source_id": "iarc_globocan_2024",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "modelled"
+      }
+    },
+    {
+      "id": "projection_world_all_cancers",
+      "category": "projection",
+      "title_en": "Projected cancer burden to 2050 — World",
+      "title_pl": "Prognozowane obciążenie nowotworami do 2050 — World",
+      "narrative_en": "With 2024 rates held constant, demographic change raises projected new cases from 19,498,127 to 32,097,025 (+64.6%).",
+      "narrative_pl": "Przy stałych współczynnikach z 2024 r. zmiany demograficzne zwiększają liczbę nowych zachorowań z 19,498,127 do 32,097,025 (+64.6%).",
+      "value": 64.61593977718988,
+      "filters": {
+        "geography": "WORLD",
+        "cancer": "ALL_EX_NMSC",
+        "measure": "incidence",
+        "years": [
+          2024,
+          2050
+        ]
+      },
+      "provenance": {
+        "source_id": "iarc_cancer_tomorrow",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "projected"
+      }
+    },
+    {
+      "id": "projection_pol_all_cancers",
+      "category": "projection",
+      "title_en": "Projected cancer burden to 2050 — Poland",
+      "title_pl": "Prognozowane obciążenie nowotworami do 2050 — Poland",
+      "narrative_en": "With 2024 rates held constant, demographic change raises projected new cases from 196,176 to 239,388 (+22.0%).",
+      "narrative_pl": "Przy stałych współczynnikach z 2024 r. zmiany demograficzne zwiększają liczbę nowych zachorowań z 196,176 do 239,388 (+22.0%).",
+      "value": 22.027159285539515,
+      "filters": {
+        "geography": "POL",
+        "cancer": "ALL_EX_NMSC",
+        "measure": "incidence",
+        "years": [
+          2024,
+          2050
+        ]
+      },
+      "provenance": {
+        "source_id": "iarc_cancer_tomorrow",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "projected"
+      }
+    },
+    {
+      "id": "projection_gbr_all_cancers",
+      "category": "projection",
+      "title_en": "Projected cancer burden to 2050 — United Kingdom",
+      "title_pl": "Prognozowane obciążenie nowotworami do 2050 — United Kingdom",
+      "narrative_en": "With 2024 rates held constant, demographic change raises projected new cases from 415,194 to 543,811 (+31.0%).",
+      "narrative_pl": "Przy stałych współczynnikach z 2024 r. zmiany demograficzne zwiększają liczbę nowych zachorowań z 415,194 do 543,811 (+31.0%).",
+      "value": 30.977567113204913,
+      "filters": {
+        "geography": "GBR",
+        "cancer": "ALL_EX_NMSC",
+        "measure": "incidence",
+        "years": [
+          2024,
+          2050
+        ]
+      },
+      "provenance": {
+        "source_id": "iarc_cancer_tomorrow",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "projected"
+      }
+    },
+    {
+      "id": "projection_esp_all_cancers",
+      "category": "projection",
+      "title_en": "Projected cancer burden to 2050 — Spain",
+      "title_pl": "Prognozowane obciążenie nowotworami do 2050 — Spain",
+      "narrative_en": "With 2024 rates held constant, demographic change raises projected new cases from 261,994 to 343,081 (+30.9%).",
+      "narrative_pl": "Przy stałych współczynnikach z 2024 r. zmiany demograficzne zwiększają liczbę nowych zachorowań z 261,994 do 343,081 (+30.9%).",
+      "value": 30.949945418597373,
+      "filters": {
+        "geography": "ESP",
+        "cancer": "ALL_EX_NMSC",
+        "measure": "incidence",
+        "years": [
+          2024,
+          2050
+        ]
+      },
+      "provenance": {
+        "source_id": "iarc_cancer_tomorrow",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "projected"
+      }
+    },
+    {
+      "id": "projection_usa_all_cancers",
+      "category": "projection",
+      "title_en": "Projected cancer burden to 2050 — United States",
+      "title_pl": "Prognozowane obciążenie nowotworami do 2050 — United States",
+      "narrative_en": "With 2024 rates held constant, demographic change raises projected new cases from 1,929,123 to 2,552,769 (+32.3%).",
+      "narrative_pl": "Przy stałych współczynnikach z 2024 r. zmiany demograficzne zwiększają liczbę nowych zachorowań z 1,929,123 do 2,552,769 (+32.3%).",
+      "value": 32.32795420509734,
+      "filters": {
+        "geography": "USA",
+        "cancer": "ALL_EX_NMSC",
+        "measure": "incidence",
+        "years": [
+          2024,
+          2050
+        ]
+      },
+      "provenance": {
+        "source_id": "iarc_cancer_tomorrow",
+        "source_version": "GLOBOCAN 2024",
+        "evidence_type": "projected"
+      }
+    }
+  ],
+  "observed_mortality_coverage": [
+    {
+      "geography_code": "ESP",
+      "min": 1968,
+      "max": 2024
+    },
+    {
+      "geography_code": "GBR",
+      "min": 1968,
+      "max": 2024
+    },
+    {
+      "geography_code": "POL",
+      "min": 1969,
+      "max": 2024
+    },
+    {
+      "geography_code": "USA",
+      "min": 1968,
+      "max": 2023
+    }
+  ],
+  "cautions": {
+    "en": [
+      "Observed, modelled, and projected evidence are separate.",
+      "GLOBOCAN editions are snapshots, not a historical series.",
+      "Crude-rate changes can reflect population ageing as well as disease risk."
+    ],
+    "pl": [
+      "Dane obserwowane, modelowane i prognozowane są rozdzielone.",
+      "Edycje GLOBOCAN są snapshotami, a nie szeregiem historycznym.",
+      "Zmiany współczynników surowych mogą wynikać także ze starzenia populacji."
+    ]
+  }
+}

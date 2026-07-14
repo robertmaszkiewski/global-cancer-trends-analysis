@@ -4,6 +4,25 @@ A reproducible, high-granularity cancer epidemiology project with a standalone b
 
 > **386,916 canonical observations · 42 cancer categories · 5 geographies · 1968–2050 · 457 lazy data routes**
 
+## Corrected pipeline (`pipeline/`)
+
+> **Read this before trusting the original `src/` pipeline.** A review of the first build found
+> that the published dataset had a **19-year hole (1980–1998)** which the historical charts bridged
+> with a straight line, no age-standardisation on any long trend, and no rate data for the USA after
+> 2007. The `pipeline/` directory contains a rebuilt version that fixes these at the source.
+>
+> | Problem in the original build | Cause | Fix |
+> |---|---|---|
+> | 1980–1998 missing entirely | All four countries report ICD-9 under WHO list **`09B`**; the code mapped `09A` | ICD-9 era recovered — verified against published counts (PL lung 1990 = 14,539; US = 91,089) |
+> | Wrong WHO country codes | — | POL **4230**, GBR **4308**, ESP **4280**, USA **2450** |
+> | No rates for the USA after 2007 | WHO publishes no US populations past 2007 — a **source limit, not a bug** | Denominators from **UN World Population Prospects 2024** (seam at 2007 measured: 0.09%) |
+> | Every long trend was a crude rate | Crude rates track population ageing, not risk | **Age-standardised rates** (WHO World Standard) across the full series |
+> | Empty "both sexes" series | Grouping key included `icd_codes`, which differs by sex | `both` computed explicitly; sex-specific cancers use the sex-specific denominator (IARC convention) |
+> | Cancer definitions drifted across ICD revisions | e.g. ICD-8 "melanoma" (`A053`) actually covers **all** skin cancer | Sites defined from the WHO documentation; **18 of 20 verified continuous** across revisions, the other two rendered with a visible break |
+> | Rows silently discarded | Unmapped causes became `None` and vanished | Every dropped row counted and reported; `validate.py` **fails the build** on any completeness or ground-truth failure |
+>
+> Live case study built on the corrected data: <https://rmportfolio.co.uk/case-studies/cancer.html>
+
 ## What can be explored
 
 The site provides six analytical branches:

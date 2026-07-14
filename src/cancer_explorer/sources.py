@@ -25,6 +25,8 @@ class SourceDefinition(BaseModel):
     licence: str
     geographies: list[str] = Field(min_length=1)
     notes: str
+    download_urls: list[AnyHttpUrl] = Field(default_factory=list)
+    manual: bool = False
 
 
 DEFAULT_REGISTRY = Path(__file__).resolve().parents[2] / "config" / "sources.yml"

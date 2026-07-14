@@ -9,6 +9,22 @@ sources:
     licence: WHO data terms and conditions
     geographies: [POL, GBR, ESP, USA]
     notes: Country-reported cause-of-death microdata from 1950 onward; completeness and ICD revision vary.
+    download_urls:
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_availability.zip?sfvrsn=23261e11_33"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_country_codes.zip?sfvrsn=800faac2_5&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_documentation71f9e29d-7e3f-41e6-aafc-c4c1775c7aa3.zip?sfvrsn=40cce9be_42"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_notes.zip?sfvrsn=2020c859_19&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_pop.zip?sfvrsn=937039fc_26&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd07.zip?sfvrsn=c1ebfbb2_3&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd08.zip?sfvrsn=6e1eba55_7&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd09.zip?sfvrsn=cfa97ceb_3&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part1.zip?sfvrsn=e2a4f93a_19&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part2.zip?sfvrsn=6e55000b_6&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part3.zip?sfvrsn=9f1111a2_14&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part4.zip?sfvrsn=259c5c23_30&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part5.zip?sfvrsn=ad970d0b_34&ua=1"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part6.zip?sfvrsn=ec801a61_4"
+      - "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_add.zip?sfvrsn=47111c9f_4"
   - id: who_ghe
     publisher: World Health Organization
     title: Global Health Estimates
@@ -29,6 +45,7 @@ sources:
     licence: IHME free-of-charge non-commercial user agreement
     geographies: [WORLD, POL, GBR, ESP, USA]
     notes: Preferred comparable incidence, mortality, prevalence, DALY, YLL and YLD panel for 1990-2023 with uncertainty intervals.
+    manual: true
   - id: iarc_globocan_2022
     publisher: International Agency for Research on Cancer
     title: Global Cancer Observatory — Cancer Today

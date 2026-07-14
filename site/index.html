@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore cancer incidence, mortality, age patterns, sex differences, history and projections.">
+  <meta name="theme-color" content="#f5f8fb">
+  <title>Global Cancer Observatory — detailed data explorer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2315233f'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%237fd1a8' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content / Przejdź do treści</a>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="container nav-inner">
+      <a class="brand" href="https://www.rmportfolio.co.uk/" aria-label="Robert Maszkiewski portfolio">Robert <span>Maszkiewski</span></a>
+      <div class="nav-links">
+        <a class="hide-sm" href="#summary" data-i18n="nav.summary">Key findings</a>
+        <a class="hide-sm" href="#explorer" data-i18n="nav.explore">Explore data</a>
+        <a class="hide-sm" href="#method" data-i18n="nav.method">Method</a>
+        <div class="seg lang-seg" role="group" aria-label="Language / Język">
+          <button type="button" class="active" data-language="en" aria-pressed="true">EN</button>
+          <button type="button" data-language="pl" aria-pressed="false">PL</button>
+        </div>
+        <a class="nav-cta" href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis" data-i18n="footer.github">GitHub repository</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="cs-hero cancer-hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <a class="back" href="https://www.rmportfolio.co.uk/">← <span data-i18n="nav.portfolio">Portfolio home</span></a>
+        <div class="eyebrow" data-i18n="hero.eyebrow">Global cancer data · 1968–2050</div>
+        <h1 data-i18n="hero.title">Cancer is not one trend. Open every branch.</h1>
+        <p class="lede" data-i18n="hero.lead">A bilingual, source-backed atlas of 386,916 observations: global estimates plus Poland, the UK, Spain and the USA, split by cancer, age, sex, year, measure and evidence type.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#explorer"><span data-i18n="hero.cta">Start exploring</span><span aria-hidden="true">↘</span></a>
+          <a class="btn btn-ghost" href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/docs/methodology.md"><span data-i18n="hero.method">Read methodology</span><span aria-hidden="true">→</span></a>
+        </div>
+        <p class="clinical-note"><span aria-hidden="true">ⓘ</span> <span data-i18n="hero.note">Descriptive epidemiology — not medical advice and not a causal model.</span></p>
+      </div>
+      <div class="orbit-map" aria-hidden="true">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit-center"><span>386,916</span><small>records</small></div>
+        <span class="orbit-node node-world">WORLD</span>
+        <span class="orbit-node node-pol">POL</span>
+        <span class="orbit-node node-gbr">GBR</span>
+        <span class="orbit-node node-esp">ESP</span>
+        <span class="orbit-node node-usa">USA</span>
+      </div>
+    </div>
+    <div class="container hero-meta" aria-label="Project metadata">
+      <div><b>Tools:</b> Python · pandas · PyArrow · SVG · JavaScript</div>
+      <div><b>Data:</b> WHO Mortality Database · IARC GLOBOCAN 2024</div>
+      <div><b>Period:</b> 1968–2050</div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="headline-strip" aria-label="Dataset scale">
+      <div class="container kpis kpis-wide">
+        <article class="kpi"><div class="v">386,916</div><div class="l" data-i18n="stats.records">Canonical observations</div></article>
+        <article class="kpi"><div class="v">42</div><div class="l" data-i18n="stats.cancers">Cancer categories</div></article>
+        <article class="kpi"><div class="v">5</div><div class="l" data-i18n="stats.countries">Geographic views</div></article>
+        <article class="kpi"><div class="v">83 yrs</div><div class="l" data-i18n="stats.years">Full time horizon</div></article>
+        <article class="kpi good"><div class="v">457</div><div class="l" data-i18n="stats.routes">Lazy data routes</div></article>
+      </div>
+    </section>
+
+    <section id="summary">
+      <div class="container">
+        <div class="section-head wide-head">
+          <span class="phase" data-i18n="summary.phase">Executive answer</span>
+          <h2 data-i18n="summary.title">What the combined evidence says</h2>
+          <p class="lede" data-i18n="summary.lead">The headline changes when you switch from counts to rates, from all ages to an age group, or from one cancer to another. These are starting points, not the end of the analysis.</p>
+        </div>
+        <div class="finding-grid">
+          <article class="finding-card featured">
+            <span class="finding-index">01</span>
+            <div><span class="evidence-badge evidence-modelled" data-i18n="evidence.modelled">Modelled</span><h3 data-i18n="finding.one.title">Lung cancer leads the global burden</h3><p data-i18n="finding.one.body">In 2024, IARC estimates 2.64 million new lung cancers and 1.86 million lung-cancer deaths worldwide.</p></div>
+          </article>
+          <article class="finding-card">
+            <span class="finding-index">02</span>
+            <div><span class="evidence-badge evidence-projected" data-i18n="evidence.projected">Projected</span><h3 data-i18n="finding.two.title">Population ageing drives a steep count increase</h3><p data-i18n="finding.two.body">All cancers excluding non-melanoma skin cancer are projected to rise from 19.50 million cases in 2024 to 32.10 million in 2050: +64.6% if 2024 rates remain constant.</p></div>
+          </article>
+          <article class="finding-card">
+            <span class="finding-index">03</span>
+            <div><span class="evidence-badge evidence-modelled" data-i18n="evidence.modelled">Modelled</span><h3 data-i18n="finding.three.title">Age profiles are cancer-specific</h3><p data-i18n="finding.three.body">Most common cancers rise sharply at older ages, while testicular, cervical, thyroid and some blood cancers have distinctly different age patterns.</p></div>
+          </article>
+          <article class="finding-card">
+            <span class="finding-index">04</span>
+            <div><span class="evidence-badge evidence-observed" data-i18n="evidence.observed">Observed</span><h3 data-i18n="finding.four.title">Country comparison needs like-for-like metrics</h3><p data-i18n="finding.four.body">Raw counts describe service volume; age-standardised rates are better for comparing populations with different age structures.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-soft" id="branches">
+      <div class="container">
+        <div class="section-head wide-head">
+          <span class="phase" data-i18n="branches.phase">Choose a route</span>
+          <h2 data-i18n="branches.title">Six ways into the same evidence</h2>
+          <p data-i18n="branches.lead">Every route opens the explorer with a purposeful question and compatible controls.</p>
+        </div>
+        <div class="branch-map">
+          <button class="branch-card" type="button" data-route="ranking"><span class="branch-number">01</span><span class="branch-copy"><strong data-i18n="branch.ranking.title">Which cancers are most common?</strong><small data-i18n="branch.ranking.body">Rank incidence or mortality by cancer and geography.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+          <button class="branch-card" type="button" data-route="age"><span class="branch-number">02</span><span class="branch-copy"><strong data-i18n="branch.age.title">At what age does burden rise?</strong><small data-i18n="branch.age.body">Trace age-specific rates for any cancer and sex.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+          <button class="branch-card" type="button" data-route="history"><span class="branch-number">03</span><span class="branch-copy"><strong data-i18n="branch.history.title">What changed since 1968?</strong><small data-i18n="branch.history.body">Explore observed cause-of-death records through the latest available year.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+          <button class="branch-card" type="button" data-route="sex"><span class="branch-number">04</span><span class="branch-copy"><strong data-i18n="branch.sex.title">Where do sexes differ?</strong><small data-i18n="branch.sex.body">Compare female and male levels without hiding sex-specific cancers.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+          <button class="branch-card" type="button" data-route="country"><span class="branch-number">05</span><span class="branch-copy"><strong data-i18n="branch.country.title">How do countries compare?</strong><small data-i18n="branch.country.body">Use the same cancer, year, sex and metric across four countries and the world.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+          <button class="branch-card" type="button" data-route="future"><span class="branch-number">06</span><span class="branch-copy"><strong data-i18n="branch.future.title">What could 2050 look like?</strong><small data-i18n="branch.future.body">Inspect demographic projections by cancer, sex, measure and geography.</small></span><span class="branch-arrow" aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="explorer" class="explorer-section">
+      <div class="container">
+        <div class="section-head wide-head">
+          <span class="phase" data-i18n="explorer.phase">Interactive analysis</span>
+          <h2 data-i18n="explorer.title">Cancer data explorer</h2>
+          <p data-i18n="explorer.lead">Change one dimension at a time or follow a completely different analytical branch. The URL stores your current view.</p>
+        </div>
+
+        <div class="explorer-shell">
+          <aside class="filter-rail" aria-label="Analysis filters">
+            <div class="filter-rail-head"><span class="mono">QUERY BUILDER</span><button type="button" id="reset-view" class="text-button" data-i18n="explorer.reset">Reset view</button></div>
+            <label class="filter-field" data-control="route"><span data-i18n="explorer.route">Analysis route</span><select id="filter-route"><option value="ranking" data-i18n="route.ranking">Current ranking</option><option value="age" data-i18n="route.age">Age profile</option><option value="history" data-i18n="route.history">Historical trend</option><option value="sex" data-i18n="route.sex">Sex comparison</option><option value="country" data-i18n="route.country">Country comparison</option><option value="future" data-i18n="route.future">Projection to 2050</option></select></label>
+            <label class="filter-field" data-control="geography"><span data-i18n="explorer.geography">Geography</span><select id="filter-geography"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="cancer"><span data-i18n="explorer.cancer">Cancer</span><select id="filter-cancer"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="measure"><span data-i18n="explorer.measure">Measure</span><select id="filter-measure"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="metric"><span data-i18n="explorer.metric">Metric</span><select id="filter-metric"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="sex"><span data-i18n="explorer.sex">Sex</span><select id="filter-sex"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="age"><span data-i18n="explorer.age">Age group</span><select id="filter-age"><option>Loading…</option></select></label>
+            <label class="filter-field" data-control="year"><span data-i18n="explorer.year">Year</span><select id="filter-year"><option value="2024">2024</option><option value="2050">2050</option></select></label>
+            <label class="filter-field" data-control="top"><span data-i18n="explorer.top">Number shown</span><select id="filter-top"><option value="5">5</option><option value="10" selected>10</option><option value="15">15</option><option value="25">25</option></select></label>
+          </aside>
+
+          <div class="analysis-stage">
+            <div class="analysis-toolbar">
+              <div><span class="mono route-kicker" id="route-kicker">ROUTE 01</span><h3 id="analysis-title" data-i18n="chart.ranking.title">Ranked cancer burden</h3></div>
+              <div class="toolbar-actions"><button type="button" class="icon-button" id="copy-link" title="Copy view link">⌁ <span data-i18n="explorer.copy">Copy view link</span></button><button type="button" class="icon-button" id="download-csv">↓ <span data-i18n="explorer.download">Download filtered CSV</span></button></div>
+            </div>
+            <div id="explorer-status" class="status-message" role="status" aria-live="polite" data-i18n="explorer.loading">Loading verified partition…</div>
+            <div class="view-kpis" id="view-kpis" aria-label="Selected view summary"></div>
+            <div id="chart" class="chart-canvas" aria-busy="true"></div>
+            <div class="chart-foot">
+              <div id="provenance" class="provenance"></div>
+              <div class="chart-legend" aria-label="Evidence legend"><span class="legend observed"><i></i><span data-i18n="evidence.observed">Observed</span></span><span class="legend modelled"><i></i><span data-i18n="evidence.modelled">Modelled</span></span><span class="legend projected"><i></i><span data-i18n="evidence.projected">Projected</span></span></div>
+            </div>
+            <aside class="interpretation" id="interpretation"><strong data-i18n="interpret.title">What this view supports</strong><p data-i18n="interpret.ranking">Use counts for scale and rates for comparison. A top rank does not mean an individual has the highest personal risk.</p></aside>
+            <details class="data-details"><summary id="table-toggle" data-i18n="chart.showTable">Show table</summary><div class="table-scroll"><table id="data-table"><caption data-i18n="chart.table">Accessible data table</caption><thead></thead><tbody></tbody></table></div></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-soft" id="evidence">
+      <div class="container">
+        <div class="section-head"><span class="phase">Evidence</span><h2 data-i18n="evidence.title">How to read the evidence</h2></div>
+        <div class="evidence-grid">
+          <article class="evidence-card observed"><span class="evidence-line"></span><h3 data-i18n="evidence.observed">Observed</h3><p data-i18n="evidence.observed.body">Registered deaths reported by national authorities to WHO.</p><code>WHO · 1968–2024</code></article>
+          <article class="evidence-card modelled"><span class="evidence-line"></span><h3 data-i18n="evidence.modelled">Modelled</h3><p data-i18n="evidence.modelled.body">IARC estimates built for consistent cross-country comparison.</p><code>GLOBOCAN · 2024</code></article>
+          <article class="evidence-card projected"><span class="evidence-line"></span><h3 data-i18n="evidence.projected">Projected</h3><p data-i18n="evidence.projected.body">Future counts if 2024 rates stay constant while population changes.</p><code>CANCER TOMORROW · 2050</code></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="depth">
+      <div class="container depth-layout">
+        <div class="section-head"><span class="phase" data-i18n="detail.phase">Data depth</span><h2 data-i18n="detail.title">From headline to individual cells</h2><p data-i18n="detail.body">Every plotted point can be traced to its source, definition, evidence status and data vintage. Compact route files keep the page fast without discarding analytical dimensions.</p></div>
+        <div class="depth-list">
+          <a href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/docs/methodology.md"><span>01</span><strong data-i18n="detail.schema">Canonical schema</strong><small>year · geography · cancer · sex · age · measure · metric</small></a>
+          <a href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/docs/data-quality.md"><span>02</span><strong data-i18n="detail.quality">Quality checks</strong><small>0 validation issues · source reconciliation</small></a>
+          <a href="#branches"><span>03</span><strong data-i18n="detail.routes">Available branches</strong><small>457 route partitions · 38 MB</small></a>
+          <a href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/notebooks/global_cancer_trends.ipynb"><span>04</span><strong data-i18n="detail.notebook">Reproducible notebook</strong><small>24 executed cells · 4 figures</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="section-soft">
+      <div class="container">
+        <div class="section-head wide-head"><span class="phase" data-i18n="method.phase">Method &amp; limitations</span><h2 data-i18n="method.title">Honest comparisons before attractive charts</h2></div>
+        <div class="method-grid">
+          <ol class="method-list">
+            <li data-i18n="method.one">Incidence and mortality are different outcomes and are never silently merged.</li>
+            <li data-i18n="method.two">Observed, modelled and projected values remain visibly distinct.</li>
+            <li data-i18n="method.three">Age-specific, crude and age-standardised rates answer different questions.</li>
+            <li data-i18n="method.four">Cancer definitions are mapped to ICD codes and source-defined aggregates are flagged.</li>
+            <li data-i18n="method.five">Missing national exports are shown as gaps, never filled with invented estimates.</li>
+          </ol>
+          <aside class="scope-card"><span class="mono">SCOPE &amp; HONESTY</span><p><strong>Not survival data.</strong> Incidence and mortality cannot be turned into an individual prognosis or a health-system ranking from this dataset alone.</p><p><strong>Not causal.</strong> Trends can reflect prevention, exposure, screening, diagnosis, coding, population ageing and treatment together.</p><a class="btn btn-ghost" href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/docs/methodology.md" data-i18n="method.link">Open full methodology</a></aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources">
+      <div class="container">
+        <div class="section-head"><span class="phase">Provenance</span><h2 data-i18n="sources.title">Primary data sources</h2><p data-i18n="sources.note">Source terms and citations are preserved in the repository documentation.</p></div>
+        <div class="source-list">
+          <a href="https://platform.who.int/mortality/themes/theme-details/topics/indicator-groups/indicator-group-details/MDB/cancer" target="_blank" rel="noreferrer"><span class="source-mark">WHO</span><span><strong data-i18n="sources.who">WHO Mortality Database</strong><small>Observed cause-of-death data · official national reporting</small></span><span aria-hidden="true">↗</span></a>
+          <a href="https://gco.iarc.who.int/" target="_blank" rel="noreferrer"><span class="source-mark">IARC</span><span><strong data-i18n="sources.iarc">IARC Global Cancer Observatory 2024</strong><small>Incidence · mortality · lifetime risk · 2024 estimates</small></span><span aria-hidden="true">↗</span></a>
+          <a href="https://gco.iarc.who.int/tomorrow/" target="_blank" rel="noreferrer"><span class="source-mark">2050</span><span><strong data-i18n="sources.future">IARC Cancer Tomorrow</strong><small>Demographic planning scenarios · 2024–2050</small></span><span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <noscript><div class="noscript">JavaScript is required for the interactive charts. The methodology, source links and headline findings remain available. / JavaScript jest wymagany do interaktywnych wykresów. Metodologia, źródła i główne wnioski pozostają dostępne.</div></noscript>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><div class="brand footer-brand">Robert <span>Maszkiewski</span></div><p data-i18n="footer.project">Global Cancer Trends case study</p><p class="muted" data-i18n="footer.data">WHO &amp; IARC public health data</p></div>
+      <div class="foot-links"><a href="https://www.rmportfolio.co.uk/" data-i18n="nav.portfolio">Portfolio home</a><a href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis" data-i18n="footer.github">GitHub repository</a><a href="https://github.com/robertmaszkiewski/global-cancer-trends-analysis/blob/main/notebooks/global_cancer_trends.ipynb" data-i18n="footer.notebook">Analysis notebook</a></div>
+      <div class="footer-note mono" data-i18n="footer.privacy">No tracking. Static site.</div>
+    </div>
+  </footer>
+
+  <script>window.CANCER_DATA_BASE = "../data/web";</script>
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
